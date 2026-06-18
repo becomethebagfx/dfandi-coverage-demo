@@ -1,0 +1,5708 @@
+[
+  {
+    "id": "sub-tx-08",
+    "company": "Bayou TX Electrical Solutions",
+    "contact_name": "Brian Garcia",
+    "email": "brian.garcia@bayou-tx-electrical-solutions.com",
+    "phone": "(321) 939-2874",
+    "address": {
+      "street": "2462 Distribution Rd",
+      "city": "Dallas",
+      "state": "TX",
+      "state_name": "Texas",
+      "zip": "86414",
+      "lat": 32.376,
+      "lng": -97.0674
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Site Survey",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-tx-08-doc-1",
+        "type": "General Liability",
+        "issued_date": "2025-11-21",
+        "expires_date": "2026-11-21",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-08-general-liability.pdf"
+      },
+      {
+        "id": "sub-tx-08-doc-2",
+        "type": "W9",
+        "issued_date": "2022-08-16",
+        "expires_date": "2026-08-15",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-08-w9.pdf"
+      },
+      {
+        "id": "sub-tx-08-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2025-09-22",
+        "expires_date": "2026-09-22",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-08-workers-comp.pdf"
+      },
+      {
+        "id": "sub-tx-08-doc-4",
+        "type": "Auto Liability",
+        "issued_date": "2026-04-12",
+        "expires_date": "2027-04-12",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-08-auto-liability.pdf"
+      }
+    ],
+    "notes": "Used on UPS Worldport and FedEx Memphis projects."
+  },
+  {
+    "id": "sub-il-05",
+    "company": "Buckeye Controls Group",
+    "contact_name": "Karen Davis",
+    "email": "karen.davis@buckeye-controls-group.com",
+    "phone": "(849) 518-3528",
+    "address": {
+      "street": "5174 Forge Way",
+      "city": "Chicago",
+      "state": "IL",
+      "state_name": "Illinois",
+      "zip": "22355",
+      "lat": 41.8293,
+      "lng": -87.2311
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Sheet Metal",
+      "Conveyor Install",
+      "Rigging",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-il-05-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2026-08-25",
+        "expires_date": "2027-08-25",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-05-auto-liability.pdf"
+      },
+      {
+        "id": "sub-il-05-doc-2",
+        "type": "General Liability",
+        "issued_date": "2026-07-04",
+        "expires_date": "2027-07-04",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-05-general-liability.pdf"
+      },
+      {
+        "id": "sub-il-05-doc-3",
+        "type": "W9",
+        "issued_date": "2022-06-28",
+        "expires_date": "2026-06-27",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-05-w9.pdf"
+      },
+      {
+        "id": "sub-il-05-doc-4",
+        "type": "Workers Comp",
+        "issued_date": "2026-12-10",
+        "expires_date": "2027-12-10",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-05-workers-comp.pdf"
+      },
+      {
+        "id": "sub-il-05-doc-5",
+        "type": "State Contractor License",
+        "issued_date": "2024-08-20",
+        "expires_date": "2026-08-20",
+        "coverage_limit": null,
+        "issuing_authority": "IL Contractors Licensing Board",
+        "pdf_url": "#sub-il-05-state-contractor-license.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-ms-01",
+    "company": "Bayou MS Conveyor Partners",
+    "contact_name": "Greg Mendoza",
+    "email": "greg.mendoza@bayou-ms-conveyor-partners.com",
+    "phone": "(734) 224-9575",
+    "address": {
+      "street": "8970 Logistics Way",
+      "city": "Jackson",
+      "state": "MS",
+      "state_name": "Mississippi",
+      "zip": "29445",
+      "lat": 31.8313,
+      "lng": -89.6414
+    },
+    "capabilities": [
+      "Site Survey",
+      "Crane Operator",
+      "Conveyor Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-ms-01-doc-1",
+        "type": "Drug Screening",
+        "issued_date": "2026-09-08",
+        "expires_date": "2027-09-08",
+        "coverage_limit": null,
+        "issuing_authority": "Quest Diagnostics",
+        "pdf_url": "#sub-ms-01-drug-screening.pdf"
+      },
+      {
+        "id": "sub-ms-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-11-03",
+        "expires_date": "2026-11-03",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ms-01-doc-3",
+        "type": "W9",
+        "issued_date": "2023-06-26",
+        "expires_date": "2027-06-25",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-01-w9.pdf"
+      },
+      {
+        "id": "sub-ms-01-doc-4",
+        "type": "General Liability",
+        "issued_date": "2026-01-05",
+        "expires_date": "2027-01-05",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-ms-01-doc-5",
+        "type": "State Contractor License",
+        "issued_date": "2025-11-30",
+        "expires_date": "2027-11-30",
+        "coverage_limit": null,
+        "issuing_authority": "MS Contractors Licensing Board",
+        "pdf_url": "#sub-ms-01-state-contractor-license.pdf"
+      }
+    ],
+    "notes": "Travel-willing; small but excellent crew."
+  },
+  {
+    "id": "sub-mn-04",
+    "company": "Rocky Mountain MN Fabrication LLC",
+    "contact_name": "Ryan Vargas",
+    "email": "ryan.vargas@rocky-mountain-mn-fabrication.com",
+    "phone": "(771) 697-2943",
+    "address": {
+      "street": "6640 Commerce Ave",
+      "city": "Minneapolis",
+      "state": "MN",
+      "state_name": "Minnesota",
+      "zip": "32951",
+      "lat": 45.1778,
+      "lng": -92.6912
+    },
+    "capabilities": [
+      "Electrical Install",
+      "Rigging",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-mn-04-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2025-10-05",
+        "expires_date": "2026-10-05",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mn-04-workers-comp.pdf"
+      },
+      {
+        "id": "sub-mn-04-doc-2",
+        "type": "Drug Screening",
+        "issued_date": "2025-11-18",
+        "expires_date": "2026-11-18",
+        "coverage_limit": null,
+        "issuing_authority": "Concentra",
+        "pdf_url": "#sub-mn-04-drug-screening.pdf"
+      },
+      {
+        "id": "sub-mn-04-doc-3",
+        "type": "Auto Liability",
+        "issued_date": "2026-03-21",
+        "expires_date": "2027-03-21",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mn-04-auto-liability.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-in-01",
+    "company": "Crescent IN Electrical Group",
+    "contact_name": "Travis Bennett",
+    "email": "travis.bennett@crescent-in-electrical-group.com",
+    "phone": "(581) 826-5789",
+    "address": {
+      "street": "9927 Distribution Rd",
+      "city": "Indianapolis",
+      "state": "IN",
+      "state_name": "Indiana",
+      "zip": "83469",
+      "lat": 40.2976,
+      "lng": -85.8758
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Electrical Install",
+      "Site Survey",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-in-01-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2026-01-27",
+        "expires_date": "2027-01-27",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-in-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-in-01-doc-2",
+        "type": "OSHA 30",
+        "issued_date": "2025-05-30",
+        "expires_date": "2026-05-30",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-in-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-in-01-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2025-07-18",
+        "expires_date": "2026-07-18",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-in-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-in-01-doc-4",
+        "type": "General Liability",
+        "issued_date": "2026-05-17",
+        "expires_date": "2027-05-17",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-in-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-in-01-doc-5",
+        "type": "Umbrella",
+        "issued_date": "2025-08-22",
+        "expires_date": "2026-08-22",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-in-01-umbrella.pdf"
+      },
+      {
+        "id": "sub-in-01-doc-6",
+        "type": "W9",
+        "issued_date": "2022-03-02",
+        "expires_date": "2026-03-01",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-in-01-w9.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-al-01",
+    "company": "Patriot AL Electrical Group",
+    "contact_name": "Karen Davis",
+    "email": "karen.davis@patriot-al-electrical-group.com",
+    "phone": "(752) 570-6491",
+    "address": {
+      "street": "2741 Forge Blvd",
+      "city": "Birmingham",
+      "state": "AL",
+      "state_name": "Alabama",
+      "zip": "96839",
+      "lat": 33.8987,
+      "lng": -86.45
+    },
+    "capabilities": [
+      "Sheet Metal",
+      "Conveyor Install",
+      "Rigging"
+    ],
+    "documents": [
+      {
+        "id": "sub-al-01-doc-1",
+        "type": "W9",
+        "issued_date": "2023-02-01",
+        "expires_date": "2027-01-31",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-al-01-w9.pdf"
+      },
+      {
+        "id": "sub-al-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2026-07-24",
+        "expires_date": "2027-07-24",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-al-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-al-01-doc-3",
+        "type": "OSHA 30",
+        "issued_date": "2025-08-08",
+        "expires_date": "2026-08-08",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-al-01-osha-30.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-nj-02",
+    "company": "Tri-State Material Systems Co.",
+    "contact_name": "Heather Stafford",
+    "email": "heather.stafford@tri-state-material-systems-co.com",
+    "phone": "(308) 625-4250",
+    "address": {
+      "street": "8037 Distribution Way",
+      "city": "Newark",
+      "state": "NJ",
+      "state_name": "New Jersey",
+      "zip": "61528",
+      "lat": 40.7694,
+      "lng": -73.9985
+    },
+    "capabilities": [
+      "Welding",
+      "Sheet Metal",
+      "Controls / PLC",
+      "Crane Operator",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-nj-02-doc-1",
+        "type": "General Liability",
+        "issued_date": "2026-01-14",
+        "expires_date": "2027-01-14",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-02-general-liability.pdf"
+      },
+      {
+        "id": "sub-nj-02-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2026-01-06",
+        "expires_date": "2027-01-06",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-nj-02-doc-3",
+        "type": "Auto Liability",
+        "issued_date": "2025-11-08",
+        "expires_date": "2026-11-08",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-02-auto-liability.pdf"
+      }
+    ],
+    "notes": "New addition Q1 2026; small projects to date."
+  },
+  {
+    "id": "sub-ca-02",
+    "company": "Empire CA Builders Inc.",
+    "contact_name": "Tony Hahn",
+    "email": "tony.hahn@empire-ca-builders-inc.com",
+    "phone": "(537) 290-9752",
+    "address": {
+      "street": "1079 Mill Blvd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "state_name": "California",
+      "zip": "75201",
+      "lat": 33.4638,
+      "lng": -118.7186
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-ca-02-doc-1",
+        "type": "Umbrella",
+        "issued_date": "2026-04-20",
+        "expires_date": "2027-04-20",
+        "coverage_limit": "$10,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ca-02-umbrella.pdf"
+      },
+      {
+        "id": "sub-ca-02-doc-2",
+        "type": "General Liability",
+        "issued_date": "2026-05-17",
+        "expires_date": "2027-05-17",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ca-02-general-liability.pdf"
+      },
+      {
+        "id": "sub-ca-02-doc-3",
+        "type": "Auto Liability",
+        "issued_date": "2025-10-12",
+        "expires_date": "2026-10-12",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ca-02-auto-liability.pdf"
+      },
+      {
+        "id": "sub-ca-02-doc-4",
+        "type": "W9",
+        "issued_date": "2022-08-20",
+        "expires_date": "2026-08-19",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ca-02-w9.pdf"
+      },
+      {
+        "id": "sub-ca-02-doc-5",
+        "type": "Workers Comp",
+        "issued_date": "2026-02-28",
+        "expires_date": "2027-02-28",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ca-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ca-02-doc-6",
+        "type": "State Contractor License",
+        "issued_date": "2023-09-28",
+        "expires_date": "2026-09-27",
+        "coverage_limit": null,
+        "issuing_authority": "CA Contractors Licensing Board",
+        "pdf_url": "#sub-ca-02-state-contractor-license.pdf"
+      }
+    ],
+    "notes": "New addition Q1 2026; small projects to date."
+  },
+  {
+    "id": "sub-ak-01",
+    "company": "Mountain AK Conveyor LLC",
+    "contact_name": "David Patel",
+    "email": "david.patel@mountain-ak-conveyor.com",
+    "phone": "(675) 914-4770",
+    "address": {
+      "street": "4347 Forge Rd",
+      "city": "Anchorage",
+      "state": "AK",
+      "state_name": "Alaska",
+      "zip": "87211",
+      "lat": 61.6537,
+      "lng": -149.9424
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Site Survey",
+      "Rigging"
+    ],
+    "documents": [
+      {
+        "id": "sub-ak-01-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2026-11-23",
+        "expires_date": "2027-11-23",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ak-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-ak-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2026-03-05",
+        "expires_date": "2027-03-05",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ak-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ak-01-doc-3",
+        "type": "W9",
+        "issued_date": "2022-11-21",
+        "expires_date": "2026-11-20",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ak-01-w9.pdf"
+      },
+      {
+        "id": "sub-ak-01-doc-4",
+        "type": "OSHA 30",
+        "issued_date": "2026-01-06",
+        "expires_date": "2027-01-06",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-ak-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-ak-01-doc-5",
+        "type": "General Liability",
+        "issued_date": "2025-04-05",
+        "expires_date": "2026-04-05",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ak-01-general-liability.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-fl-01",
+    "company": "Cypress FL Industrial Group",
+    "contact_name": "Kim Patel",
+    "email": "kim.patel@cypress-fl-industrial-group.com",
+    "phone": "(627) 769-6716",
+    "address": {
+      "street": "2189 Logistics Way",
+      "city": "Jacksonville",
+      "state": "FL",
+      "state_name": "Florida",
+      "zip": "76168",
+      "lat": 30.1352,
+      "lng": -81.5884
+    },
+    "capabilities": [
+      "Rigging",
+      "Electrical Install",
+      "Site Survey",
+      "Sheet Metal",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-fl-01-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2025-07-22",
+        "expires_date": "2026-07-22",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-fl-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-fl-01-doc-2",
+        "type": "W9",
+        "issued_date": "2022-11-07",
+        "expires_date": "2026-11-06",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-01-w9.pdf"
+      },
+      {
+        "id": "sub-fl-01-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2026-03-28",
+        "expires_date": "2027-03-28",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-fl-01-doc-4",
+        "type": "General Liability",
+        "issued_date": "2025-11-23",
+        "expires_date": "2026-11-23",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-fl-01-doc-5",
+        "type": "Drug Screening",
+        "issued_date": "2025-04-17",
+        "expires_date": "2026-04-17",
+        "coverage_limit": null,
+        "issuing_authority": "LabCorp",
+        "pdf_url": "#sub-fl-01-drug-screening.pdf"
+      }
+    ],
+    "notes": "Travel-willing; small but excellent crew."
+  },
+  {
+    "id": "sub-nc-05",
+    "company": "Granite NC Fabrication LLC",
+    "contact_name": "Heather Bennett",
+    "email": "heather.bennett@granite-nc-fabrication.com",
+    "phone": "(824) 201-1825",
+    "address": {
+      "street": "3617 Mill Ave",
+      "city": "Charlotte",
+      "state": "NC",
+      "state_name": "North Carolina",
+      "zip": "39848",
+      "lat": 34.6967,
+      "lng": -81.2849
+    },
+    "capabilities": [
+      "Site Survey",
+      "Mechanical Install",
+      "Sheet Metal",
+      "Electrical Install",
+      "Rigging"
+    ],
+    "documents": [
+      {
+        "id": "sub-nc-05-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2025-09-30",
+        "expires_date": "2026-09-30",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-nc-05-osha-30.pdf"
+      },
+      {
+        "id": "sub-nc-05-doc-2",
+        "type": "Drug Screening",
+        "issued_date": "2025-09-12",
+        "expires_date": "2026-09-12",
+        "coverage_limit": null,
+        "issuing_authority": "LabCorp",
+        "pdf_url": "#sub-nc-05-drug-screening.pdf"
+      },
+      {
+        "id": "sub-nc-05-doc-3",
+        "type": "Auto Liability",
+        "issued_date": "2026-12-04",
+        "expires_date": "2027-12-04",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nc-05-auto-liability.pdf"
+      },
+      {
+        "id": "sub-nc-05-doc-4",
+        "type": "General Liability",
+        "issued_date": "2025-08-31",
+        "expires_date": "2026-08-31",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nc-05-general-liability.pdf"
+      }
+    ],
+    "notes": "New addition Q1 2026; small projects to date."
+  },
+  {
+    "id": "sub-ky-01",
+    "company": "Triangle KY Installation LLC",
+    "contact_name": "Lisa Patel",
+    "email": "lisa.patel@triangle-ky-installation.com",
+    "phone": "(860) 745-4425",
+    "address": {
+      "street": "8006 Forge Rd",
+      "city": "Louisville",
+      "state": "KY",
+      "state_name": "Kentucky",
+      "zip": "81991",
+      "lat": 38.0015,
+      "lng": -86.1122
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-ky-01-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2025-09-06",
+        "expires_date": "2026-09-06",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-ky-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-ky-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-09-18",
+        "expires_date": "2026-09-18",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ky-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ky-01-doc-3",
+        "type": "W9",
+        "issued_date": "2022-06-27",
+        "expires_date": "2026-06-26",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ky-01-w9.pdf"
+      },
+      {
+        "id": "sub-ky-01-doc-4",
+        "type": "Drug Screening",
+        "issued_date": "2026-05-09",
+        "expires_date": "2027-05-09",
+        "coverage_limit": null,
+        "issuing_authority": "LabCorp",
+        "pdf_url": "#sub-ky-01-drug-screening.pdf"
+      },
+      {
+        "id": "sub-ky-01-doc-5",
+        "type": "General Liability",
+        "issued_date": "2026-04-18",
+        "expires_date": "2027-04-18",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ky-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-ky-01-doc-6",
+        "type": "Auto Liability",
+        "issued_date": "2025-04-27",
+        "expires_date": "2026-04-27",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ky-01-auto-liability.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-il-04",
+    "company": "Apex IL Integration Services",
+    "contact_name": "Carlos O'Brien",
+    "email": "carlos.o.brien@apex-il-integration-services.com",
+    "phone": "(948) 639-1355",
+    "address": {
+      "street": "2221 Industrial Blvd",
+      "city": "Chicago",
+      "state": "IL",
+      "state_name": "Illinois",
+      "zip": "37925",
+      "lat": 41.8863,
+      "lng": -87.3608
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Electrical Install",
+      "Mechanical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-il-04-doc-1",
+        "type": "W9",
+        "issued_date": "2022-09-29",
+        "expires_date": "2026-09-28",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-04-w9.pdf"
+      },
+      {
+        "id": "sub-il-04-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2026-11-09",
+        "expires_date": "2027-11-09",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-04-workers-comp.pdf"
+      },
+      {
+        "id": "sub-il-04-doc-3",
+        "type": "State Contractor License",
+        "issued_date": "2023-08-10",
+        "expires_date": "2026-08-09",
+        "coverage_limit": null,
+        "issuing_authority": "IL Contractors Licensing Board",
+        "pdf_url": "#sub-il-04-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-il-04-doc-4",
+        "type": "General Liability",
+        "issued_date": "2025-06-30",
+        "expires_date": "2026-06-30",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-04-general-liability.pdf"
+      },
+      {
+        "id": "sub-il-04-doc-5",
+        "type": "Drug Screening",
+        "issued_date": "2026-04-25",
+        "expires_date": "2027-04-25",
+        "coverage_limit": null,
+        "issuing_authority": "LabCorp",
+        "pdf_url": "#sub-il-04-drug-screening.pdf"
+      },
+      {
+        "id": "sub-il-04-doc-6",
+        "type": "Umbrella",
+        "issued_date": "2026-04-14",
+        "expires_date": "2027-04-14",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-04-umbrella.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-ms-05",
+    "company": "Pacific MS Fabrication Partners",
+    "contact_name": "Carlos Nguyen",
+    "email": "carlos.nguyen@pacific-ms-fabrication-partner.com",
+    "phone": "(257) 912-4880",
+    "address": {
+      "street": "702 Mill Rd",
+      "city": "Jackson",
+      "state": "MS",
+      "state_name": "Mississippi",
+      "zip": "41713",
+      "lat": 32.728,
+      "lng": -90.4625
+    },
+    "capabilities": [
+      "Crane Operator",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-ms-05-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2025-12-11",
+        "expires_date": "2026-12-11",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-ms-05-osha-30.pdf"
+      },
+      {
+        "id": "sub-ms-05-doc-2",
+        "type": "W9",
+        "issued_date": "2023-05-29",
+        "expires_date": "2027-05-28",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-05-w9.pdf"
+      },
+      {
+        "id": "sub-ms-05-doc-3",
+        "type": "Auto Liability",
+        "issued_date": "2026-05-01",
+        "expires_date": "2027-05-01",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-05-auto-liability.pdf"
+      },
+      {
+        "id": "sub-ms-05-doc-4",
+        "type": "General Liability",
+        "issued_date": "2025-08-23",
+        "expires_date": "2026-08-23",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-05-general-liability.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-il-01",
+    "company": "Atlas IL Material Systems Co.",
+    "contact_name": "Joel Mendoza",
+    "email": "joel.mendoza@atlas-il-material-systems-co.com",
+    "phone": "(965) 286-8938",
+    "address": {
+      "street": "4359 Distribution Way",
+      "city": "Chicago",
+      "state": "IL",
+      "state_name": "Illinois",
+      "zip": "48054",
+      "lat": 41.9041,
+      "lng": -87.5245
+    },
+    "capabilities": [
+      "Site Survey",
+      "Conveyor Install",
+      "Welding"
+    ],
+    "documents": [
+      {
+        "id": "sub-il-01-doc-1",
+        "type": "State Contractor License",
+        "issued_date": "2024-07-01",
+        "expires_date": "2026-07-01",
+        "coverage_limit": null,
+        "issuing_authority": "IL Contractors Licensing Board",
+        "pdf_url": "#sub-il-01-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-il-01-doc-2",
+        "type": "General Liability",
+        "issued_date": "2026-06-07",
+        "expires_date": "2027-06-07",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-il-01-doc-3",
+        "type": "W9",
+        "issued_date": "2022-12-09",
+        "expires_date": "2026-12-08",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-01-w9.pdf"
+      },
+      {
+        "id": "sub-il-01-doc-4",
+        "type": "Workers Comp",
+        "issued_date": "2025-11-15",
+        "expires_date": "2026-11-15",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-01-workers-comp.pdf"
+      }
+    ],
+    "notes": "Prefer for retrofits where shutdown windows are tight."
+  },
+  {
+    "id": "sub-ma-03",
+    "company": "Frontier MA Controls Co.",
+    "contact_name": "Carlos Mendoza",
+    "email": "carlos.mendoza@frontier-ma-controls-co.com",
+    "phone": "(523) 437-2831",
+    "address": {
+      "street": "6530 Foundry Ave",
+      "city": "Boston",
+      "state": "MA",
+      "state_name": "Massachusetts",
+      "zip": "94118",
+      "lat": 42.6477,
+      "lng": -71.5771
+    },
+    "capabilities": [
+      "Sheet Metal",
+      "Welding",
+      "Site Survey",
+      "Conveyor Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-ma-03-doc-1",
+        "type": "State Contractor License",
+        "issued_date": "2024-08-06",
+        "expires_date": "2027-08-06",
+        "coverage_limit": null,
+        "issuing_authority": "MA Contractors Licensing Board",
+        "pdf_url": "#sub-ma-03-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-ma-03-doc-2",
+        "type": "General Liability",
+        "issued_date": "2025-10-05",
+        "expires_date": "2026-10-05",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-03-general-liability.pdf"
+      },
+      {
+        "id": "sub-ma-03-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2025-08-25",
+        "expires_date": "2026-08-25",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-03-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ma-03-doc-4",
+        "type": "W9",
+        "issued_date": "2023-06-06",
+        "expires_date": "2027-06-05",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-03-w9.pdf"
+      },
+      {
+        "id": "sub-ma-03-doc-5",
+        "type": "Auto Liability",
+        "issued_date": "2025-09-09",
+        "expires_date": "2026-09-09",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-03-auto-liability.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-tx-07",
+    "company": "Patriot TX Builders Solutions",
+    "contact_name": "Ryan Singh",
+    "email": "ryan.singh@patriot-tx-builders-solutions.com",
+    "phone": "(510) 928-2470",
+    "address": {
+      "street": "3418 Forge Rd",
+      "city": "Dallas",
+      "state": "TX",
+      "state_name": "Texas",
+      "zip": "20293",
+      "lat": 32.4902,
+      "lng": -96.8841
+    },
+    "capabilities": [
+      "Rigging",
+      "Mechanical Install",
+      "Welding",
+      "Controls / PLC",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-tx-07-doc-1",
+        "type": "State Contractor License",
+        "issued_date": "2024-09-08",
+        "expires_date": "2027-09-08",
+        "coverage_limit": null,
+        "issuing_authority": "TX Contractors Licensing Board",
+        "pdf_url": "#sub-tx-07-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-tx-07-doc-2",
+        "type": "Drug Screening",
+        "issued_date": "2026-09-22",
+        "expires_date": "2027-09-22",
+        "coverage_limit": null,
+        "issuing_authority": "LabCorp",
+        "pdf_url": "#sub-tx-07-drug-screening.pdf"
+      },
+      {
+        "id": "sub-tx-07-doc-3",
+        "type": "W9",
+        "issued_date": "2022-07-15",
+        "expires_date": "2026-07-14",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-07-w9.pdf"
+      },
+      {
+        "id": "sub-tx-07-doc-4",
+        "type": "Workers Comp",
+        "issued_date": "2025-07-19",
+        "expires_date": "2026-07-19",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-07-workers-comp.pdf"
+      },
+      {
+        "id": "sub-tx-07-doc-5",
+        "type": "General Liability",
+        "issued_date": "2025-09-17",
+        "expires_date": "2026-09-17",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-07-general-liability.pdf"
+      }
+    ],
+    "notes": "New addition Q1 2026; small projects to date."
+  },
+  {
+    "id": "sub-ga-01",
+    "company": "Riverbend GA Controls LLC",
+    "contact_name": "Greg Underwood",
+    "email": "greg.underwood@riverbend-ga-controls.com",
+    "phone": "(523) 869-4875",
+    "address": {
+      "street": "6905 Distribution Rd",
+      "city": "Atlanta",
+      "state": "GA",
+      "state_name": "Georgia",
+      "zip": "84683",
+      "lat": 34.2455,
+      "lng": -84.7535
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-ga-01-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2025-07-27",
+        "expires_date": "2026-07-27",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-ga-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-ga-01-doc-2",
+        "type": "State Contractor License",
+        "issued_date": "2024-11-10",
+        "expires_date": "2027-11-10",
+        "coverage_limit": null,
+        "issuing_authority": "GA Contractors Licensing Board",
+        "pdf_url": "#sub-ga-01-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-ga-01-doc-3",
+        "type": "General Liability",
+        "issued_date": "2025-12-03",
+        "expires_date": "2026-12-03",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ga-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-ga-01-doc-4",
+        "type": "W9",
+        "issued_date": "2022-09-23",
+        "expires_date": "2026-09-22",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ga-01-w9.pdf"
+      },
+      {
+        "id": "sub-ga-01-doc-5",
+        "type": "Auto Liability",
+        "issued_date": "2025-04-27",
+        "expires_date": "2026-04-27",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ga-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-ga-01-doc-6",
+        "type": "Workers Comp",
+        "issued_date": "2026-04-07",
+        "expires_date": "2027-04-07",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ga-01-workers-comp.pdf"
+      }
+    ],
+    "notes": "Travel-willing; small but excellent crew."
+  },
+  {
+    "id": "sub-ny-02",
+    "company": "Sun Belt NY Mechanical LLC",
+    "contact_name": "Greg Whittaker",
+    "email": "greg.whittaker@sun-belt-ny-mechanical.com",
+    "phone": "(771) 880-1664",
+    "address": {
+      "street": "6406 Forge Ave",
+      "city": "Buffalo",
+      "state": "NY",
+      "state_name": "New York",
+      "zip": "99980",
+      "lat": 43.0592,
+      "lng": -78.84
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Welding",
+      "Site Survey",
+      "Crane Operator",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-ny-02-doc-1",
+        "type": "General Liability",
+        "issued_date": "2026-07-05",
+        "expires_date": "2027-07-05",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ny-02-general-liability.pdf"
+      },
+      {
+        "id": "sub-ny-02-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-11-10",
+        "expires_date": "2026-11-10",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ny-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ny-02-doc-3",
+        "type": "W9",
+        "issued_date": "2022-08-03",
+        "expires_date": "2026-08-02",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ny-02-w9.pdf"
+      },
+      {
+        "id": "sub-ny-02-doc-4",
+        "type": "State Contractor License",
+        "issued_date": "2023-06-30",
+        "expires_date": "2026-06-29",
+        "coverage_limit": null,
+        "issuing_authority": "NY Contractors Licensing Board",
+        "pdf_url": "#sub-ny-02-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-ny-02-doc-5",
+        "type": "Umbrella",
+        "issued_date": "2025-06-19",
+        "expires_date": "2026-06-19",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ny-02-umbrella.pdf"
+      }
+    ],
+    "notes": "Used on UPS Worldport and FedEx Memphis projects."
+  },
+  {
+    "id": "sub-nj-04",
+    "company": "Coastal NJ Fabrication Partners",
+    "contact_name": "James Whittaker",
+    "email": "james.whittaker@coastal-nj-fabrication-partner.com",
+    "phone": "(774) 979-8922",
+    "address": {
+      "street": "9242 Foundry Way",
+      "city": "Newark",
+      "state": "NJ",
+      "state_name": "New Jersey",
+      "zip": "43824",
+      "lat": 40.6962,
+      "lng": -73.9619
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Electrical Install",
+      "Sheet Metal",
+      "Site Survey"
+    ],
+    "documents": [
+      {
+        "id": "sub-nj-04-doc-1",
+        "type": "State Contractor License",
+        "issued_date": "2024-11-22",
+        "expires_date": "2026-11-22",
+        "coverage_limit": null,
+        "issuing_authority": "NJ Contractors Licensing Board",
+        "pdf_url": "#sub-nj-04-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-nj-04-doc-2",
+        "type": "General Liability",
+        "issued_date": "2025-12-08",
+        "expires_date": "2026-12-08",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-04-general-liability.pdf"
+      },
+      {
+        "id": "sub-nj-04-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2026-10-24",
+        "expires_date": "2027-10-24",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-04-workers-comp.pdf"
+      },
+      {
+        "id": "sub-nj-04-doc-4",
+        "type": "W9",
+        "issued_date": "2022-06-20",
+        "expires_date": "2026-06-19",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-04-w9.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-tn-03",
+    "company": "Allegheny TN Installation Inc.",
+    "contact_name": "Lisa Stafford",
+    "email": "lisa.stafford@allegheny-tn-installation-inc.com",
+    "phone": "(830) 364-4674",
+    "address": {
+      "street": "3392 Distribution Ave",
+      "city": "Memphis",
+      "state": "TN",
+      "state_name": "Tennessee",
+      "zip": "68612",
+      "lat": 35.4667,
+      "lng": -90.3308
+    },
+    "capabilities": [
+      "Welding",
+      "Site Survey",
+      "Mechanical Install",
+      "Sheet Metal",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-tn-03-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2026-05-16",
+        "expires_date": "2027-05-16",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-03-workers-comp.pdf"
+      },
+      {
+        "id": "sub-tn-03-doc-2",
+        "type": "General Liability",
+        "issued_date": "2025-12-06",
+        "expires_date": "2026-12-06",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-03-general-liability.pdf"
+      },
+      {
+        "id": "sub-tn-03-doc-3",
+        "type": "State Contractor License",
+        "issued_date": "2025-03-03",
+        "expires_date": "2027-03-03",
+        "coverage_limit": null,
+        "issuing_authority": "TN Contractors Licensing Board",
+        "pdf_url": "#sub-tn-03-state-contractor-license.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-az-01",
+    "company": "Allegheny Sortation Partners",
+    "contact_name": "Carlos Bauer",
+    "email": "carlos.bauer@allegheny-sortation-partners.com",
+    "phone": "(788) 492-5493",
+    "address": {
+      "street": "6284 Mill Rd",
+      "city": "Phoenix",
+      "state": "AZ",
+      "state_name": "Arizona",
+      "zip": "44720",
+      "lat": 33.3181,
+      "lng": -112.4259
+    },
+    "capabilities": [
+      "Welding",
+      "Electrical Install",
+      "Site Survey"
+    ],
+    "documents": [
+      {
+        "id": "sub-az-01-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2025-08-09",
+        "expires_date": "2026-08-09",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-az-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-az-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-01-05",
+        "expires_date": "2026-01-05",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-az-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-az-01-doc-3",
+        "type": "Umbrella",
+        "issued_date": "2025-10-22",
+        "expires_date": "2026-10-22",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-az-01-umbrella.pdf"
+      }
+    ],
+    "notes": "Specializes in food and beverage facility work."
+  },
+  {
+    "id": "sub-mo-02",
+    "company": "Sierra MO Conveyor Co.",
+    "contact_name": "Sarah Davis",
+    "email": "sarah.davis@sierra-mo-conveyor-co.com",
+    "phone": "(458) 354-7681",
+    "address": {
+      "street": "1845 Mill Ave",
+      "city": "St. Louis",
+      "state": "MO",
+      "state_name": "Missouri",
+      "zip": "48139",
+      "lat": 38.6523,
+      "lng": -90.666
+    },
+    "capabilities": [
+      "Welding",
+      "Crane Operator",
+      "Mechanical Install",
+      "Controls / PLC",
+      "Site Survey"
+    ],
+    "documents": [
+      {
+        "id": "sub-mo-02-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2025-07-15",
+        "expires_date": "2026-07-15",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mo-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-mo-02-doc-2",
+        "type": "W9",
+        "issued_date": "2022-08-20",
+        "expires_date": "2026-08-19",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-mo-02-w9.pdf"
+      },
+      {
+        "id": "sub-mo-02-doc-3",
+        "type": "General Liability",
+        "issued_date": "2025-10-18",
+        "expires_date": "2026-10-18",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mo-02-general-liability.pdf"
+      },
+      {
+        "id": "sub-mo-02-doc-4",
+        "type": "Umbrella",
+        "issued_date": "2026-09-20",
+        "expires_date": "2027-09-20",
+        "coverage_limit": "$10,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mo-02-umbrella.pdf"
+      },
+      {
+        "id": "sub-mo-02-doc-5",
+        "type": "Auto Liability",
+        "issued_date": "2025-07-07",
+        "expires_date": "2026-07-07",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mo-02-auto-liability.pdf"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sub-mn-03",
+    "company": "Cornerstone MN Material Systems Partners",
+    "contact_name": "Anthony Cole",
+    "email": "anthony.cole@cornerstone-mn-material-system.com",
+    "phone": "(247) 556-5635",
+    "address": {
+      "street": "345 Forge Blvd",
+      "city": "Minneapolis",
+      "state": "MN",
+      "state_name": "Minnesota",
+      "zip": "24583",
+      "lat": 44.5326,
+      "lng": -93.1647
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Electrical Install",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-mn-03-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2026-03-07",
+        "expires_date": "2027-03-07",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-mn-03-osha-30.pdf"
+      },
+      {
+        "id": "sub-mn-03-doc-2",
+        "type": "General Liability",
+        "issued_date": "2025-08-17",
+        "expires_date": "2026-08-17",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mn-03-general-liability.pdf"
+      },
+      {
+        "id": "sub-mn-03-doc-3",
+        "type": "Drug Screening",
+        "issued_date": "2026-05-16",
+        "expires_date": "2027-05-16",
+        "coverage_limit": null,
+        "issuing_authority": "Concentra",
+        "pdf_url": "#sub-mn-03-drug-screening.pdf"
+      },
+      {
+        "id": "sub-mn-03-doc-4",
+        "type": "W9",
+        "issued_date": "2022-10-05",
+        "expires_date": "2026-10-04",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-mn-03-w9.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-in-02",
+    "company": "Liberty IN Fabrication Partners",
+    "contact_name": "Carlos Perez",
+    "email": "carlos.perez@liberty-in-fabrication-partner.com",
+    "phone": "(383) 397-8769",
+    "address": {
+      "street": "8389 Logistics Way",
+      "city": "Indianapolis",
+      "state": "IN",
+      "state_name": "Indiana",
+      "zip": "94271",
+      "lat": 39.6278,
+      "lng": -86.1487
+    },
+    "capabilities": [
+      "Site Survey",
+      "Welding",
+      "Crane Operator",
+      "Rigging",
+      "Mechanical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-in-02-doc-1",
+        "type": "General Liability",
+        "issued_date": "2026-06-26",
+        "expires_date": "2027-06-26",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-in-02-general-liability.pdf"
+      },
+      {
+        "id": "sub-in-02-doc-2",
+        "type": "Umbrella",
+        "issued_date": "2025-11-04",
+        "expires_date": "2026-11-04",
+        "coverage_limit": "$10,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-in-02-umbrella.pdf"
+      },
+      {
+        "id": "sub-in-02-doc-3",
+        "type": "OSHA 30",
+        "issued_date": "2025-11-03",
+        "expires_date": "2026-11-03",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-in-02-osha-30.pdf"
+      },
+      {
+        "id": "sub-in-02-doc-4",
+        "type": "Drug Screening",
+        "issued_date": "2026-03-28",
+        "expires_date": "2027-03-28",
+        "coverage_limit": null,
+        "issuing_authority": "LabCorp",
+        "pdf_url": "#sub-in-02-drug-screening.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-ca-01",
+    "company": "Bayou CA Material Systems LLC",
+    "contact_name": "Karen Hahn",
+    "email": "karen.hahn@bayou-ca-material-systems.com",
+    "phone": "(514) 534-6982",
+    "address": {
+      "street": "1344 Commerce Way",
+      "city": "Los Angeles",
+      "state": "CA",
+      "state_name": "California",
+      "zip": "27567",
+      "lat": 34.1373,
+      "lng": -118.2735
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Sheet Metal",
+      "Mechanical Install",
+      "Welding"
+    ],
+    "documents": [
+      {
+        "id": "sub-ca-01-doc-1",
+        "type": "General Liability",
+        "issued_date": "2026-09-14",
+        "expires_date": "2027-09-14",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ca-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-ca-01-doc-2",
+        "type": "State Contractor License",
+        "issued_date": "2024-12-04",
+        "expires_date": "2027-12-04",
+        "coverage_limit": null,
+        "issuing_authority": "CA Contractors Licensing Board",
+        "pdf_url": "#sub-ca-01-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-ca-01-doc-3",
+        "type": "W9",
+        "issued_date": "2022-09-28",
+        "expires_date": "2026-09-27",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ca-01-w9.pdf"
+      },
+      {
+        "id": "sub-ca-01-doc-4",
+        "type": "Auto Liability",
+        "issued_date": "2025-08-04",
+        "expires_date": "2026-08-04",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ca-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-ca-01-doc-5",
+        "type": "OSHA 30",
+        "issued_date": "2026-05-28",
+        "expires_date": "2027-05-28",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-ca-01-osha-30.pdf"
+      }
+    ],
+    "notes": "Travel-willing; small but excellent crew."
+  },
+  {
+    "id": "sub-mi-03",
+    "company": "Buckeye Rigging Group",
+    "contact_name": "Maria Bennett",
+    "email": "maria.bennett@buckeye-rigging-group.com",
+    "phone": "(816) 297-3527",
+    "address": {
+      "street": "4355 Commerce Park Dr",
+      "city": "Detroit",
+      "state": "MI",
+      "state_name": "Michigan",
+      "zip": "85756",
+      "lat": 42.3168,
+      "lng": -83.2693
+    },
+    "capabilities": [
+      "Mechanical Install",
+      "Electrical Install",
+      "Controls / PLC",
+      "Rigging"
+    ],
+    "documents": [
+      {
+        "id": "sub-mi-03-doc-1",
+        "type": "Umbrella",
+        "issued_date": "2024-12-27",
+        "expires_date": "2025-12-27",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mi-03-umbrella.pdf"
+      },
+      {
+        "id": "sub-mi-03-doc-2",
+        "type": "State Contractor License",
+        "issued_date": "2023-12-10",
+        "expires_date": "2026-12-09",
+        "coverage_limit": null,
+        "issuing_authority": "MI Contractors Licensing Board",
+        "pdf_url": "#sub-mi-03-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-mi-03-doc-3",
+        "type": "W9",
+        "issued_date": "2022-09-27",
+        "expires_date": "2026-09-26",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-mi-03-w9.pdf"
+      },
+      {
+        "id": "sub-mi-03-doc-4",
+        "type": "General Liability",
+        "issued_date": "2025-08-08",
+        "expires_date": "2026-08-08",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mi-03-general-liability.pdf"
+      },
+      {
+        "id": "sub-mi-03-doc-5",
+        "type": "Workers Comp",
+        "issued_date": "2026-01-12",
+        "expires_date": "2027-01-12",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mi-03-workers-comp.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-ne-01",
+    "company": "Riverbend NE Industrial Services",
+    "contact_name": "David O'Brien",
+    "email": "david.o.brien@riverbend-ne-industrial-servic.com",
+    "phone": "(832) 332-9594",
+    "address": {
+      "street": "2638 Forge Blvd",
+      "city": "Omaha",
+      "state": "NE",
+      "state_name": "Nebraska",
+      "zip": "90436",
+      "lat": 40.9875,
+      "lng": -96.0132
+    },
+    "capabilities": [
+      "Sheet Metal",
+      "Mechanical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-ne-01-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2025-12-03",
+        "expires_date": "2026-12-03",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ne-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ne-01-doc-2",
+        "type": "OSHA 30",
+        "issued_date": "2026-01-25",
+        "expires_date": "2027-01-25",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-ne-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-ne-01-doc-3",
+        "type": "General Liability",
+        "issued_date": "2026-03-19",
+        "expires_date": "2027-03-19",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ne-01-general-liability.pdf"
+      }
+    ],
+    "notes": "Specializes in food and beverage facility work."
+  },
+  {
+    "id": "sub-mi-01",
+    "company": "Hawkeye MI Integration Co.",
+    "contact_name": "Maria Chen",
+    "email": "maria.chen@hawkeye-mi-integration-co.com",
+    "phone": "(355) 895-7233",
+    "address": {
+      "street": "6129 Forge Rd",
+      "city": "Detroit",
+      "state": "MI",
+      "state_name": "Michigan",
+      "zip": "25389",
+      "lat": 42.5436,
+      "lng": -83.4398
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Site Survey",
+      "Mechanical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-mi-01-doc-1",
+        "type": "Drug Screening",
+        "issued_date": "2025-08-22",
+        "expires_date": "2026-08-22",
+        "coverage_limit": null,
+        "issuing_authority": "Quest Diagnostics",
+        "pdf_url": "#sub-mi-01-drug-screening.pdf"
+      },
+      {
+        "id": "sub-mi-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-10-29",
+        "expires_date": "2026-10-29",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mi-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-mi-01-doc-3",
+        "type": "W9",
+        "issued_date": "2023-03-12",
+        "expires_date": "2027-03-11",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-mi-01-w9.pdf"
+      },
+      {
+        "id": "sub-mi-01-doc-4",
+        "type": "State Contractor License",
+        "issued_date": "2024-11-28",
+        "expires_date": "2026-11-28",
+        "coverage_limit": null,
+        "issuing_authority": "MI Contractors Licensing Board",
+        "pdf_url": "#sub-mi-01-state-contractor-license.pdf"
+      }
+    ],
+    "notes": "New addition Q1 2026; small projects to date."
+  },
+  {
+    "id": "sub-wa-01",
+    "company": "Hawkeye Rigging Partners",
+    "contact_name": "Jamal Chen",
+    "email": "jamal.chen@hawkeye-rigging-partners.com",
+    "phone": "(361) 880-8695",
+    "address": {
+      "street": "909 Commerce Park Dr",
+      "city": "Seattle",
+      "state": "WA",
+      "state_name": "Washington",
+      "zip": "51194",
+      "lat": 47.0832,
+      "lng": -122.1046
+    },
+    "capabilities": [
+      "Crane Operator",
+      "Welding",
+      "Sheet Metal"
+    ],
+    "documents": [
+      {
+        "id": "sub-wa-01-doc-1",
+        "type": "Drug Screening",
+        "issued_date": "2025-12-21",
+        "expires_date": "2026-12-21",
+        "coverage_limit": null,
+        "issuing_authority": "Quest Diagnostics",
+        "pdf_url": "#sub-wa-01-drug-screening.pdf"
+      },
+      {
+        "id": "sub-wa-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2026-08-11",
+        "expires_date": "2027-08-11",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-wa-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-wa-01-doc-3",
+        "type": "W9",
+        "issued_date": "2022-08-23",
+        "expires_date": "2026-08-22",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-wa-01-w9.pdf"
+      },
+      {
+        "id": "sub-wa-01-doc-4",
+        "type": "Umbrella",
+        "issued_date": "2025-10-10",
+        "expires_date": "2026-10-10",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-wa-01-umbrella.pdf"
+      },
+      {
+        "id": "sub-wa-01-doc-5",
+        "type": "General Liability",
+        "issued_date": "2025-12-05",
+        "expires_date": "2026-12-05",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-wa-01-general-liability.pdf"
+      }
+    ],
+    "notes": "Travel-willing; small but excellent crew."
+  },
+  {
+    "id": "sub-co-02",
+    "company": "Sierra Controls Solutions",
+    "contact_name": "David Cole",
+    "email": "david.cole@sierra-controls-solutions.com",
+    "phone": "(630) 820-1600",
+    "address": {
+      "street": "1413 Commerce Park Dr",
+      "city": "Denver",
+      "state": "CO",
+      "state_name": "Colorado",
+      "zip": "82785",
+      "lat": 39.5157,
+      "lng": -105.202
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Sheet Metal",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-co-02-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2026-02-18",
+        "expires_date": "2027-02-18",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-co-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-co-02-doc-2",
+        "type": "W9",
+        "issued_date": "2023-05-17",
+        "expires_date": "2027-05-16",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-co-02-w9.pdf"
+      },
+      {
+        "id": "sub-co-02-doc-3",
+        "type": "Auto Liability",
+        "issued_date": "2026-08-07",
+        "expires_date": "2027-08-07",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-co-02-auto-liability.pdf"
+      }
+    ],
+    "notes": "Specializes in food and beverage facility work."
+  },
+  {
+    "id": "sub-il-06",
+    "company": "Sun Belt IL Integration Partners",
+    "contact_name": "Travis McLean",
+    "email": "travis.mclean@sun-belt-il-integration-partne.com",
+    "phone": "(622) 684-4882",
+    "address": {
+      "street": "6568 Foundry Rd",
+      "city": "Chicago",
+      "state": "IL",
+      "state_name": "Illinois",
+      "zip": "95519",
+      "lat": 42.405,
+      "lng": -87.7426
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Sheet Metal"
+    ],
+    "documents": [
+      {
+        "id": "sub-il-06-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2026-02-18",
+        "expires_date": "2027-02-18",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-06-workers-comp.pdf"
+      },
+      {
+        "id": "sub-il-06-doc-2",
+        "type": "State Contractor License",
+        "issued_date": "2023-07-16",
+        "expires_date": "2026-07-15",
+        "coverage_limit": null,
+        "issuing_authority": "IL Contractors Licensing Board",
+        "pdf_url": "#sub-il-06-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-il-06-doc-3",
+        "type": "General Liability",
+        "issued_date": "2025-07-07",
+        "expires_date": "2026-07-07",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-06-general-liability.pdf"
+      },
+      {
+        "id": "sub-il-06-doc-4",
+        "type": "W9",
+        "issued_date": "2023-10-08",
+        "expires_date": "2027-10-07",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-06-w9.pdf"
+      },
+      {
+        "id": "sub-il-06-doc-5",
+        "type": "OSHA 30",
+        "issued_date": "2025-06-26",
+        "expires_date": "2026-06-26",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-il-06-osha-30.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-sd-01",
+    "company": "Cornerstone SD Sortation Co.",
+    "contact_name": "Marcus Chen",
+    "email": "marcus.chen@cornerstone-sd-sortation-co.com",
+    "phone": "(448) 806-6000",
+    "address": {
+      "street": "9239 Forge Rd",
+      "city": "Sioux Falls",
+      "state": "SD",
+      "state_name": "South Dakota",
+      "zip": "19043",
+      "lat": 43.6338,
+      "lng": -96.3126
+    },
+    "capabilities": [
+      "Welding",
+      "Electrical Install",
+      "Mechanical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-sd-01-doc-1",
+        "type": "State Contractor License",
+        "issued_date": "2024-08-25",
+        "expires_date": "2026-08-25",
+        "coverage_limit": null,
+        "issuing_authority": "SD Contractors Licensing Board",
+        "pdf_url": "#sub-sd-01-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-sd-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-11-23",
+        "expires_date": "2026-11-23",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-sd-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-sd-01-doc-3",
+        "type": "OSHA 30",
+        "issued_date": "2025-10-28",
+        "expires_date": "2026-10-28",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-sd-01-osha-30.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-wy-02",
+    "company": "Crescent WY Material Systems Inc.",
+    "contact_name": "Sarah Stafford",
+    "email": "sarah.stafford@crescent-wy-material-systems-i.com",
+    "phone": "(348) 740-7383",
+    "address": {
+      "street": "1018 Forge Park Dr",
+      "city": "Cheyenne",
+      "state": "WY",
+      "state_name": "Wyoming",
+      "zip": "34864",
+      "lat": 41.2805,
+      "lng": -104.5842
+    },
+    "capabilities": [
+      "Rigging",
+      "Electrical Install",
+      "Conveyor Install",
+      "Welding"
+    ],
+    "documents": [
+      {
+        "id": "sub-wy-02-doc-1",
+        "type": "State Contractor License",
+        "issued_date": "2023-12-17",
+        "expires_date": "2026-12-16",
+        "coverage_limit": null,
+        "issuing_authority": "WY Contractors Licensing Board",
+        "pdf_url": "#sub-wy-02-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-wy-02-doc-2",
+        "type": "Drug Screening",
+        "issued_date": "2026-04-22",
+        "expires_date": "2027-04-22",
+        "coverage_limit": null,
+        "issuing_authority": "LabCorp",
+        "pdf_url": "#sub-wy-02-drug-screening.pdf"
+      },
+      {
+        "id": "sub-wy-02-doc-3",
+        "type": "OSHA 30",
+        "issued_date": "2025-08-24",
+        "expires_date": "2026-08-24",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-wy-02-osha-30.pdf"
+      },
+      {
+        "id": "sub-wy-02-doc-4",
+        "type": "Workers Comp",
+        "issued_date": "2026-09-20",
+        "expires_date": "2027-09-20",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-wy-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-wy-02-doc-5",
+        "type": "General Liability",
+        "issued_date": "2025-04-09",
+        "expires_date": "2026-04-09",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-wy-02-general-liability.pdf"
+      },
+      {
+        "id": "sub-wy-02-doc-6",
+        "type": "W9",
+        "issued_date": "2022-09-12",
+        "expires_date": "2026-09-11",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-wy-02-w9.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-fl-03",
+    "company": "Sooner FL Fabrication Inc.",
+    "contact_name": "Tony Hancock",
+    "email": "tony.hancock@sooner-fl-fabrication-inc.com",
+    "phone": "(281) 559-6332",
+    "address": {
+      "street": "8249 Logistics Blvd",
+      "city": "Jacksonville",
+      "state": "FL",
+      "state_name": "Florida",
+      "zip": "75343",
+      "lat": 30.3568,
+      "lng": -81.6889
+    },
+    "capabilities": [
+      "Welding",
+      "Electrical Install",
+      "Site Survey",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-fl-03-doc-1",
+        "type": "W9",
+        "issued_date": "2023-03-16",
+        "expires_date": "2027-03-15",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-03-w9.pdf"
+      },
+      {
+        "id": "sub-fl-03-doc-2",
+        "type": "General Liability",
+        "issued_date": "2026-03-19",
+        "expires_date": "2027-03-19",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-03-general-liability.pdf"
+      },
+      {
+        "id": "sub-fl-03-doc-3",
+        "type": "Drug Screening",
+        "issued_date": "2025-06-15",
+        "expires_date": "2026-06-15",
+        "coverage_limit": null,
+        "issuing_authority": "LabCorp",
+        "pdf_url": "#sub-fl-03-drug-screening.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-tx-01",
+    "company": "Iron Rail TX Installation Services",
+    "contact_name": "Tony Whittaker",
+    "email": "tony.whittaker@iron-rail-tx-installation-serv.com",
+    "phone": "(816) 666-3044",
+    "address": {
+      "street": "3040 Commerce Park Dr",
+      "city": "Dallas",
+      "state": "TX",
+      "state_name": "Texas",
+      "zip": "75498",
+      "lat": 32.5336,
+      "lng": -96.9966
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Mechanical Install",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-tx-01-doc-1",
+        "type": "State Contractor License",
+        "issued_date": "2025-11-11",
+        "expires_date": "2027-11-11",
+        "coverage_limit": null,
+        "issuing_authority": "TX Contractors Licensing Board",
+        "pdf_url": "#sub-tx-01-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-tx-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-07-16",
+        "expires_date": "2026-07-16",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-tx-01-doc-3",
+        "type": "General Liability",
+        "issued_date": "2025-07-17",
+        "expires_date": "2026-07-17",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-tx-01-doc-4",
+        "type": "W9",
+        "issued_date": "2022-06-22",
+        "expires_date": "2026-06-21",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-01-w9.pdf"
+      },
+      {
+        "id": "sub-tx-01-doc-5",
+        "type": "Auto Liability",
+        "issued_date": "2026-01-03",
+        "expires_date": "2027-01-03",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-01-auto-liability.pdf"
+      }
+    ],
+    "notes": "Prefer for retrofits where shutdown windows are tight."
+  },
+  {
+    "id": "sub-la-01",
+    "company": "Tri-State LA Rigging Solutions",
+    "contact_name": "Cathy Underwood",
+    "email": "cathy.underwood@tri-state-la-rigging-solutions.com",
+    "phone": "(578) 455-8499",
+    "address": {
+      "street": "478 Mill Ave",
+      "city": "New Orleans",
+      "state": "LA",
+      "state_name": "Louisiana",
+      "zip": "74905",
+      "lat": 30.0463,
+      "lng": -90.6287
+    },
+    "capabilities": [
+      "Mechanical Install",
+      "Rigging",
+      "Site Survey",
+      "Sheet Metal",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-la-01-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2025-10-25",
+        "expires_date": "2026-10-25",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-la-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-la-01-doc-2",
+        "type": "General Liability",
+        "issued_date": "2025-10-16",
+        "expires_date": "2026-10-16",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-la-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-la-01-doc-3",
+        "type": "W9",
+        "issued_date": "2023-09-28",
+        "expires_date": "2027-09-27",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-la-01-w9.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-ks-01",
+    "company": "Crescent KS Electrical Partners",
+    "contact_name": "Rachel McLean",
+    "email": "rachel.mclean@crescent-ks-electrical-partner.com",
+    "phone": "(273) 508-5462",
+    "address": {
+      "street": "831 Industrial Park Dr",
+      "city": "Kansas City",
+      "state": "KS",
+      "state_name": "Kansas",
+      "zip": "59285",
+      "lat": 38.9172,
+      "lng": -94.1193
+    },
+    "capabilities": [
+      "Mechanical Install",
+      "Sheet Metal",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-ks-01-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2025-08-19",
+        "expires_date": "2026-08-19",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ks-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ks-01-doc-2",
+        "type": "General Liability",
+        "issued_date": "2025-04-14",
+        "expires_date": "2026-04-14",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ks-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-ks-01-doc-3",
+        "type": "W9",
+        "issued_date": "2022-11-29",
+        "expires_date": "2026-11-28",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ks-01-w9.pdf"
+      },
+      {
+        "id": "sub-ks-01-doc-4",
+        "type": "Auto Liability",
+        "issued_date": "2025-10-15",
+        "expires_date": "2026-10-15",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ks-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-ks-01-doc-5",
+        "type": "State Contractor License",
+        "issued_date": "2024-09-19",
+        "expires_date": "2027-09-19",
+        "coverage_limit": null,
+        "issuing_authority": "KS Contractors Licensing Board",
+        "pdf_url": "#sub-ks-01-state-contractor-license.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-nc-01",
+    "company": "Heartland NC Conveyor LLC",
+    "contact_name": "Heather Whittaker",
+    "email": "heather.whittaker@heartland-nc-conveyor.com",
+    "phone": "(900) 819-3132",
+    "address": {
+      "street": "3760 Mill Park Dr",
+      "city": "Charlotte",
+      "state": "NC",
+      "state_name": "North Carolina",
+      "zip": "77794",
+      "lat": 35.7407,
+      "lng": -80.7767
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Electrical Install",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-nc-01-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2026-07-09",
+        "expires_date": "2027-07-09",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-nc-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-nc-01-doc-2",
+        "type": "Auto Liability",
+        "issued_date": "2025-02-13",
+        "expires_date": "2026-02-13",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nc-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-nc-01-doc-3",
+        "type": "State Contractor License",
+        "issued_date": "2025-04-25",
+        "expires_date": "2027-04-25",
+        "coverage_limit": null,
+        "issuing_authority": "NC Contractors Licensing Board",
+        "pdf_url": "#sub-nc-01-state-contractor-license.pdf"
+      }
+    ],
+    "notes": "New addition Q1 2026; small projects to date."
+  },
+  {
+    "id": "sub-mo-01",
+    "company": "North Star MO Builders Partners",
+    "contact_name": "Greg Vargas",
+    "email": "greg.vargas@north-star-mo-builders-partner.com",
+    "phone": "(949) 657-3916",
+    "address": {
+      "street": "3616 Commerce Blvd",
+      "city": "St. Louis",
+      "state": "MO",
+      "state_name": "Missouri",
+      "zip": "48529",
+      "lat": 38.5656,
+      "lng": -89.8958
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-mo-01-doc-1",
+        "type": "State Contractor License",
+        "issued_date": "2023-03-17",
+        "expires_date": "2026-03-16",
+        "coverage_limit": null,
+        "issuing_authority": "MO Contractors Licensing Board",
+        "pdf_url": "#sub-mo-01-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-mo-01-doc-2",
+        "type": "W9",
+        "issued_date": "2022-06-24",
+        "expires_date": "2026-06-23",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-mo-01-w9.pdf"
+      },
+      {
+        "id": "sub-mo-01-doc-3",
+        "type": "Umbrella",
+        "issued_date": "2026-03-14",
+        "expires_date": "2027-03-14",
+        "coverage_limit": "$10,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mo-01-umbrella.pdf"
+      },
+      {
+        "id": "sub-mo-01-doc-4",
+        "type": "General Liability",
+        "issued_date": "2025-11-30",
+        "expires_date": "2026-11-30",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mo-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-mo-01-doc-5",
+        "type": "Workers Comp",
+        "issued_date": "2026-08-06",
+        "expires_date": "2027-08-06",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mo-01-workers-comp.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-ms-03",
+    "company": "Apex MS Controls Solutions",
+    "contact_name": "Cathy Underwood",
+    "email": "cathy.underwood@apex-ms-controls-solutions.com",
+    "phone": "(624) 912-8842",
+    "address": {
+      "street": "8430 Mill Rd",
+      "city": "Jackson",
+      "state": "MS",
+      "state_name": "Mississippi",
+      "zip": "93291",
+      "lat": 31.8246,
+      "lng": -90.7611
+    },
+    "capabilities": [
+      "Sheet Metal",
+      "Electrical Install",
+      "Welding"
+    ],
+    "documents": [
+      {
+        "id": "sub-ms-03-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2026-04-02",
+        "expires_date": "2027-04-02",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-03-auto-liability.pdf"
+      },
+      {
+        "id": "sub-ms-03-doc-2",
+        "type": "OSHA 30",
+        "issued_date": "2025-07-27",
+        "expires_date": "2026-07-27",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-ms-03-osha-30.pdf"
+      },
+      {
+        "id": "sub-ms-03-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2026-01-06",
+        "expires_date": "2027-01-06",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-03-workers-comp.pdf"
+      }
+    ],
+    "notes": "Prefer for retrofits where shutdown windows are tight."
+  },
+  {
+    "id": "sub-vt-01",
+    "company": "Big Sky Electrical LLC",
+    "contact_name": "Jamal Garcia",
+    "email": "jamal.garcia@big-sky-electrical.com",
+    "phone": "(971) 856-5648",
+    "address": {
+      "street": "5541 Mill Way",
+      "city": "Burlington",
+      "state": "VT",
+      "state_name": "Vermont",
+      "zip": "89954",
+      "lat": 44.3633,
+      "lng": -72.7463
+    },
+    "capabilities": [
+      "Crane Operator",
+      "Rigging",
+      "Welding"
+    ],
+    "documents": [
+      {
+        "id": "sub-vt-01-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2025-11-01",
+        "expires_date": "2026-11-01",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-vt-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-vt-01-doc-2",
+        "type": "State Contractor License",
+        "issued_date": "2023-12-04",
+        "expires_date": "2026-12-03",
+        "coverage_limit": null,
+        "issuing_authority": "VT Contractors Licensing Board",
+        "pdf_url": "#sub-vt-01-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-vt-01-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2025-07-25",
+        "expires_date": "2026-07-25",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-vt-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-vt-01-doc-4",
+        "type": "OSHA 30",
+        "issued_date": "2026-02-24",
+        "expires_date": "2027-02-24",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-vt-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-vt-01-doc-5",
+        "type": "W9",
+        "issued_date": "2022-11-16",
+        "expires_date": "2026-11-15",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-vt-01-w9.pdf"
+      },
+      {
+        "id": "sub-vt-01-doc-6",
+        "type": "General Liability",
+        "issued_date": "2025-08-22",
+        "expires_date": "2026-08-22",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-vt-01-general-liability.pdf"
+      }
+    ],
+    "notes": "Used on UPS Worldport and FedEx Memphis projects."
+  },
+  {
+    "id": "sub-la-02",
+    "company": "Sierra LA Material Systems Inc.",
+    "contact_name": "Mike Caldwell",
+    "email": "mike.caldwell@sierra-la-material-systems-inc.com",
+    "phone": "(249) 921-6127",
+    "address": {
+      "street": "190 Forge Ave",
+      "city": "New Orleans",
+      "state": "LA",
+      "state_name": "Louisiana",
+      "zip": "79744",
+      "lat": 29.3885,
+      "lng": -89.8535
+    },
+    "capabilities": [
+      "Mechanical Install",
+      "Electrical Install",
+      "Rigging",
+      "Conveyor Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-la-02-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2025-07-28",
+        "expires_date": "2026-07-28",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-la-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-la-02-doc-2",
+        "type": "Auto Liability",
+        "issued_date": "2025-09-15",
+        "expires_date": "2026-09-15",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-la-02-auto-liability.pdf"
+      },
+      {
+        "id": "sub-la-02-doc-3",
+        "type": "W9",
+        "issued_date": "2023-10-28",
+        "expires_date": "2027-10-27",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-la-02-w9.pdf"
+      },
+      {
+        "id": "sub-la-02-doc-4",
+        "type": "Umbrella",
+        "issued_date": "2025-02-14",
+        "expires_date": "2026-02-14",
+        "coverage_limit": "$10,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-la-02-umbrella.pdf"
+      },
+      {
+        "id": "sub-la-02-doc-5",
+        "type": "OSHA 30",
+        "issued_date": "2025-07-10",
+        "expires_date": "2026-07-10",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-la-02-osha-30.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-co-03",
+    "company": "Cypress CO Fabrication Partners",
+    "contact_name": "Greg Caldwell",
+    "email": "greg.caldwell@cypress-co-fabrication-partner.com",
+    "phone": "(679) 563-3263",
+    "address": {
+      "street": "2692 Logistics Way",
+      "city": "Denver",
+      "state": "CO",
+      "state_name": "Colorado",
+      "zip": "41148",
+      "lat": 39.9961,
+      "lng": -104.6301
+    },
+    "capabilities": [
+      "Crane Operator",
+      "Rigging",
+      "Site Survey"
+    ],
+    "documents": [
+      {
+        "id": "sub-co-03-doc-1",
+        "type": "W9",
+        "issued_date": "2022-11-07",
+        "expires_date": "2026-11-06",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-co-03-w9.pdf"
+      },
+      {
+        "id": "sub-co-03-doc-2",
+        "type": "Umbrella",
+        "issued_date": "2024-12-27",
+        "expires_date": "2025-12-27",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-co-03-umbrella.pdf"
+      },
+      {
+        "id": "sub-co-03-doc-3",
+        "type": "Auto Liability",
+        "issued_date": "2025-08-07",
+        "expires_date": "2026-08-07",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-co-03-auto-liability.pdf"
+      }
+    ],
+    "notes": "Specializes in food and beverage facility work."
+  },
+  {
+    "id": "sub-ma-02",
+    "company": "Liberty Fabrication Solutions",
+    "contact_name": "Lisa Miller",
+    "email": "lisa.miller@liberty-fabrication-solutions.com",
+    "phone": "(467) 346-1623",
+    "address": {
+      "street": "9131 Foundry Park Dr",
+      "city": "Boston",
+      "state": "MA",
+      "state_name": "Massachusetts",
+      "zip": "15186",
+      "lat": 42.6041,
+      "lng": -71.1571
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Crane Operator",
+      "Site Survey",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-ma-02-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2026-08-22",
+        "expires_date": "2027-08-22",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ma-02-doc-2",
+        "type": "General Liability",
+        "issued_date": "2026-11-10",
+        "expires_date": "2027-11-10",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-02-general-liability.pdf"
+      },
+      {
+        "id": "sub-ma-02-doc-3",
+        "type": "W9",
+        "issued_date": "2023-02-14",
+        "expires_date": "2027-02-13",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-02-w9.pdf"
+      },
+      {
+        "id": "sub-ma-02-doc-4",
+        "type": "Umbrella",
+        "issued_date": "2025-08-22",
+        "expires_date": "2026-08-22",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-02-umbrella.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-or-01",
+    "company": "Bayou OR Installation LLC",
+    "contact_name": "Tony Bauer",
+    "email": "tony.bauer@bayou-or-installation.com",
+    "phone": "(644) 258-6029",
+    "address": {
+      "street": "9986 Distribution Park Dr",
+      "city": "Portland",
+      "state": "OR",
+      "state_name": "Oregon",
+      "zip": "79841",
+      "lat": 45.8053,
+      "lng": -122.9737
+    },
+    "capabilities": [
+      "Site Survey",
+      "Welding",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-or-01-doc-1",
+        "type": "W9",
+        "issued_date": "2022-10-14",
+        "expires_date": "2026-10-13",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-or-01-w9.pdf"
+      },
+      {
+        "id": "sub-or-01-doc-2",
+        "type": "OSHA 30",
+        "issued_date": "2025-08-10",
+        "expires_date": "2026-08-10",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-or-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-or-01-doc-3",
+        "type": "General Liability",
+        "issued_date": "2026-08-22",
+        "expires_date": "2027-08-22",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-or-01-general-liability.pdf"
+      }
+    ],
+    "notes": "Used on UPS Worldport and FedEx Memphis projects."
+  },
+  {
+    "id": "sub-ms-04",
+    "company": "Phoenix MS Material Systems Partners",
+    "contact_name": "David Nguyen",
+    "email": "david.nguyen@phoenix-ms-material-systems-pa.com",
+    "phone": "(601) 425-6247",
+    "address": {
+      "street": "8599 Industrial Way",
+      "city": "Jackson",
+      "state": "MS",
+      "state_name": "Mississippi",
+      "zip": "55044",
+      "lat": 31.7835,
+      "lng": -90.3854
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Mechanical Install",
+      "Sheet Metal"
+    ],
+    "documents": [
+      {
+        "id": "sub-ms-04-doc-1",
+        "type": "W9",
+        "issued_date": "2023-05-01",
+        "expires_date": "2027-04-30",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-04-w9.pdf"
+      },
+      {
+        "id": "sub-ms-04-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-09-15",
+        "expires_date": "2026-09-15",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-04-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ms-04-doc-3",
+        "type": "General Liability",
+        "issued_date": "2025-07-26",
+        "expires_date": "2026-07-26",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-04-general-liability.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-nm-01",
+    "company": "Big Sky Conveyor Services",
+    "contact_name": "Holly Patel",
+    "email": "holly.patel@big-sky-conveyor-services.com",
+    "phone": "(544) 251-4226",
+    "address": {
+      "street": "9129 Mill Blvd",
+      "city": "Albuquerque",
+      "state": "NM",
+      "state_name": "New Mexico",
+      "zip": "16790",
+      "lat": 34.9378,
+      "lng": -107.1552
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-nm-01-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2026-06-02",
+        "expires_date": "2027-06-02",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-nm-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-nm-01-doc-2",
+        "type": "General Liability",
+        "issued_date": "2025-10-11",
+        "expires_date": "2026-10-11",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nm-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-nm-01-doc-3",
+        "type": "W9",
+        "issued_date": "2022-05-03",
+        "expires_date": "2026-05-02",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-nm-01-w9.pdf"
+      },
+      {
+        "id": "sub-nm-01-doc-4",
+        "type": "Workers Comp",
+        "issued_date": "2025-08-23",
+        "expires_date": "2026-08-23",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nm-01-workers-comp.pdf"
+      }
+    ],
+    "notes": "Travel-willing; small but excellent crew."
+  },
+  {
+    "id": "sub-mt-01",
+    "company": "Frontier MT Fabrication Inc.",
+    "contact_name": "Marcus Hahn",
+    "email": "marcus.hahn@frontier-mt-fabrication-inc.com",
+    "phone": "(404) 385-5202",
+    "address": {
+      "street": "5356 Logistics Way",
+      "city": "Billings",
+      "state": "MT",
+      "state_name": "Montana",
+      "zip": "70163",
+      "lat": 45.5843,
+      "lng": -108.895
+    },
+    "capabilities": [
+      "Electrical Install",
+      "Conveyor Install",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-mt-01-doc-1",
+        "type": "W9",
+        "issued_date": "2023-09-06",
+        "expires_date": "2027-09-05",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-mt-01-w9.pdf"
+      },
+      {
+        "id": "sub-mt-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-07-04",
+        "expires_date": "2026-07-04",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mt-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-mt-01-doc-3",
+        "type": "State Contractor License",
+        "issued_date": "2024-06-20",
+        "expires_date": "2027-06-20",
+        "coverage_limit": null,
+        "issuing_authority": "MT Contractors Licensing Board",
+        "pdf_url": "#sub-mt-01-state-contractor-license.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-nd-01",
+    "company": "Allegheny ND Rigging Group",
+    "contact_name": "Joel Holloway",
+    "email": "joel.holloway@allegheny-nd-rigging-group.com",
+    "phone": "(283) 586-7490",
+    "address": {
+      "street": "6378 Industrial Park Dr",
+      "city": "Fargo",
+      "state": "ND",
+      "state_name": "North Dakota",
+      "zip": "69544",
+      "lat": 47.3448,
+      "lng": -96.9198
+    },
+    "capabilities": [
+      "Electrical Install",
+      "Sheet Metal",
+      "Mechanical Install",
+      "Conveyor Install",
+      "Rigging"
+    ],
+    "documents": [
+      {
+        "id": "sub-nd-01-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2025-06-20",
+        "expires_date": "2026-06-20",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nd-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-nd-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2026-07-05",
+        "expires_date": "2027-07-05",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nd-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-nd-01-doc-3",
+        "type": "General Liability",
+        "issued_date": "2025-08-12",
+        "expires_date": "2026-08-12",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nd-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-nd-01-doc-4",
+        "type": "W9",
+        "issued_date": "2021-12-13",
+        "expires_date": "2025-12-12",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-nd-01-w9.pdf"
+      },
+      {
+        "id": "sub-nd-01-doc-5",
+        "type": "Umbrella",
+        "issued_date": "2025-11-26",
+        "expires_date": "2026-11-26",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nd-01-umbrella.pdf"
+      }
+    ],
+    "notes": "Specializes in food and beverage facility work."
+  },
+  {
+    "id": "sub-ms-02",
+    "company": "Frontier MS Material Systems Group",
+    "contact_name": "Rachel Chen",
+    "email": "rachel.chen@frontier-ms-material-systems-g.com",
+    "phone": "(748) 792-2592",
+    "address": {
+      "street": "170 Industrial Rd",
+      "city": "Jackson",
+      "state": "MS",
+      "state_name": "Mississippi",
+      "zip": "51281",
+      "lat": 32.8314,
+      "lng": -89.9417
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-ms-02-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2025-08-20",
+        "expires_date": "2026-08-20",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-ms-02-osha-30.pdf"
+      },
+      {
+        "id": "sub-ms-02-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-07-14",
+        "expires_date": "2026-07-14",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ms-02-doc-3",
+        "type": "State Contractor License",
+        "issued_date": "2025-02-18",
+        "expires_date": "2027-02-18",
+        "coverage_limit": null,
+        "issuing_authority": "MS Contractors Licensing Board",
+        "pdf_url": "#sub-ms-02-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-ms-02-doc-4",
+        "type": "Auto Liability",
+        "issued_date": "2026-11-26",
+        "expires_date": "2027-11-26",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-02-auto-liability.pdf"
+      },
+      {
+        "id": "sub-ms-02-doc-5",
+        "type": "W9",
+        "issued_date": "2023-12-03",
+        "expires_date": "2027-12-02",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-02-w9.pdf"
+      },
+      {
+        "id": "sub-ms-02-doc-6",
+        "type": "General Liability",
+        "issued_date": "2025-04-08",
+        "expires_date": "2026-04-08",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ms-02-general-liability.pdf"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sub-tx-02",
+    "company": "Lone Star TX Sortation LLC",
+    "contact_name": "Jamal Whittaker",
+    "email": "jamal.whittaker@lone-star-tx-sortation.com",
+    "phone": "(599) 872-7534",
+    "address": {
+      "street": "7087 Mill Ave",
+      "city": "Dallas",
+      "state": "TX",
+      "state_name": "Texas",
+      "zip": "52110",
+      "lat": 33.0336,
+      "lng": -96.8541
+    },
+    "capabilities": [
+      "Electrical Install",
+      "Conveyor Install",
+      "Crane Operator",
+      "Sheet Metal",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-tx-02-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2025-08-03",
+        "expires_date": "2026-08-03",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-02-auto-liability.pdf"
+      },
+      {
+        "id": "sub-tx-02-doc-2",
+        "type": "Drug Screening",
+        "issued_date": "2026-12-08",
+        "expires_date": "2027-12-08",
+        "coverage_limit": null,
+        "issuing_authority": "LabCorp",
+        "pdf_url": "#sub-tx-02-drug-screening.pdf"
+      },
+      {
+        "id": "sub-tx-02-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2026-09-03",
+        "expires_date": "2027-09-03",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-tx-02-doc-4",
+        "type": "State Contractor License",
+        "issued_date": "2023-09-14",
+        "expires_date": "2026-09-13",
+        "coverage_limit": null,
+        "issuing_authority": "TX Contractors Licensing Board",
+        "pdf_url": "#sub-tx-02-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-tx-02-doc-5",
+        "type": "General Liability",
+        "issued_date": "2026-10-31",
+        "expires_date": "2027-10-31",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-02-general-liability.pdf"
+      }
+    ],
+    "notes": "Specializes in food and beverage facility work."
+  },
+  {
+    "id": "sub-nj-03",
+    "company": "Sooner NJ Builders Solutions",
+    "contact_name": "David Whittaker",
+    "email": "david.whittaker@sooner-nj-builders-solutions.com",
+    "phone": "(914) 819-9427",
+    "address": {
+      "street": "7507 Commerce Blvd",
+      "city": "Newark",
+      "state": "NJ",
+      "state_name": "New Jersey",
+      "zip": "71731",
+      "lat": 41.1074,
+      "lng": -74.4764
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Sheet Metal",
+      "Crane Operator",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-nj-03-doc-1",
+        "type": "General Liability",
+        "issued_date": "2026-09-11",
+        "expires_date": "2027-09-11",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-03-general-liability.pdf"
+      },
+      {
+        "id": "sub-nj-03-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-11-08",
+        "expires_date": "2026-11-08",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-03-workers-comp.pdf"
+      },
+      {
+        "id": "sub-nj-03-doc-3",
+        "type": "W9",
+        "issued_date": "2023-03-29",
+        "expires_date": "2027-03-28",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-03-w9.pdf"
+      },
+      {
+        "id": "sub-nj-03-doc-4",
+        "type": "State Contractor License",
+        "issued_date": "2023-12-09",
+        "expires_date": "2026-12-08",
+        "coverage_limit": null,
+        "issuing_authority": "NJ Contractors Licensing Board",
+        "pdf_url": "#sub-nj-03-state-contractor-license.pdf"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sub-wy-01",
+    "company": "Tri-State Sortation Services",
+    "contact_name": "Joel Whittaker",
+    "email": "joel.whittaker@tri-state-sortation-services.com",
+    "phone": "(679) 706-5940",
+    "address": {
+      "street": "3757 Logistics Rd",
+      "city": "Cheyenne",
+      "state": "WY",
+      "state_name": "Wyoming",
+      "zip": "98304",
+      "lat": 41.5463,
+      "lng": -105.2199
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Rigging"
+    ],
+    "documents": [
+      {
+        "id": "sub-wy-01-doc-1",
+        "type": "Drug Screening",
+        "issued_date": "2026-07-14",
+        "expires_date": "2027-07-14",
+        "coverage_limit": null,
+        "issuing_authority": "LabCorp",
+        "pdf_url": "#sub-wy-01-drug-screening.pdf"
+      },
+      {
+        "id": "sub-wy-01-doc-2",
+        "type": "OSHA 30",
+        "issued_date": "2025-12-15",
+        "expires_date": "2026-12-15",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-wy-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-wy-01-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2025-12-19",
+        "expires_date": "2026-12-19",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-wy-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-wy-01-doc-4",
+        "type": "Auto Liability",
+        "issued_date": "2025-10-11",
+        "expires_date": "2026-10-11",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-wy-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-wy-01-doc-5",
+        "type": "W9",
+        "issued_date": "2022-07-04",
+        "expires_date": "2026-07-03",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-wy-01-w9.pdf"
+      }
+    ],
+    "notes": "Prefer for retrofits where shutdown windows are tight."
+  },
+  {
+    "id": "sub-nc-03",
+    "company": "Crossroads Integration Partners",
+    "contact_name": "Holly Stafford",
+    "email": "holly.stafford@crossroads-integration-partner.com",
+    "phone": "(421) 886-8692",
+    "address": {
+      "street": "4326 Commerce Way",
+      "city": "Charlotte",
+      "state": "NC",
+      "state_name": "North Carolina",
+      "zip": "89378",
+      "lat": 34.8452,
+      "lng": -80.6689
+    },
+    "capabilities": [
+      "Site Survey",
+      "Electrical Install",
+      "Rigging",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-nc-03-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2026-08-10",
+        "expires_date": "2027-08-10",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-nc-03-osha-30.pdf"
+      },
+      {
+        "id": "sub-nc-03-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-11-15",
+        "expires_date": "2026-11-15",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nc-03-workers-comp.pdf"
+      },
+      {
+        "id": "sub-nc-03-doc-3",
+        "type": "General Liability",
+        "issued_date": "2025-02-04",
+        "expires_date": "2026-02-04",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nc-03-general-liability.pdf"
+      }
+    ],
+    "notes": "Travel-willing; small but excellent crew."
+  },
+  {
+    "id": "sub-fl-04",
+    "company": "Mid-Continent Installation Co.",
+    "contact_name": "Mike Davis",
+    "email": "mike.davis@mid-continent-installation-co.com",
+    "phone": "(467) 280-6678",
+    "address": {
+      "street": "1340 Industrial Way",
+      "city": "Jacksonville",
+      "state": "FL",
+      "state_name": "Florida",
+      "zip": "66362",
+      "lat": 29.7579,
+      "lng": -82.2003
+    },
+    "capabilities": [
+      "Mechanical Install",
+      "Controls / PLC",
+      "Crane Operator",
+      "Rigging",
+      "Conveyor Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-fl-04-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2025-09-18",
+        "expires_date": "2026-09-18",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-04-workers-comp.pdf"
+      },
+      {
+        "id": "sub-fl-04-doc-2",
+        "type": "OSHA 30",
+        "issued_date": "2025-12-01",
+        "expires_date": "2026-12-01",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-fl-04-osha-30.pdf"
+      },
+      {
+        "id": "sub-fl-04-doc-3",
+        "type": "W9",
+        "issued_date": "2023-05-25",
+        "expires_date": "2027-05-24",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-04-w9.pdf"
+      },
+      {
+        "id": "sub-fl-04-doc-4",
+        "type": "Auto Liability",
+        "issued_date": "2026-09-14",
+        "expires_date": "2027-09-14",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-04-auto-liability.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-oh-03",
+    "company": "Rust Belt OH Industrial Co.",
+    "contact_name": "Ryan Underwood",
+    "email": "ryan.underwood@rust-belt-oh-industrial-co.com",
+    "phone": "(215) 903-6934",
+    "address": {
+      "street": "922 Industrial Way",
+      "city": "Columbus",
+      "state": "OH",
+      "state_name": "Ohio",
+      "zip": "40098",
+      "lat": 40.4683,
+      "lng": -83.3857
+    },
+    "capabilities": [
+      "Electrical Install",
+      "Site Survey",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-oh-03-doc-1",
+        "type": "General Liability",
+        "issued_date": "2025-09-20",
+        "expires_date": "2026-09-20",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-03-general-liability.pdf"
+      },
+      {
+        "id": "sub-oh-03-doc-2",
+        "type": "W9",
+        "issued_date": "2022-10-01",
+        "expires_date": "2026-09-30",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-03-w9.pdf"
+      },
+      {
+        "id": "sub-oh-03-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2026-07-14",
+        "expires_date": "2027-07-14",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-03-workers-comp.pdf"
+      },
+      {
+        "id": "sub-oh-03-doc-4",
+        "type": "OSHA 30",
+        "issued_date": "2026-02-28",
+        "expires_date": "2027-02-28",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-oh-03-osha-30.pdf"
+      },
+      {
+        "id": "sub-oh-03-doc-5",
+        "type": "Drug Screening",
+        "issued_date": "2025-06-19",
+        "expires_date": "2026-06-19",
+        "coverage_limit": null,
+        "issuing_authority": "Concentra",
+        "pdf_url": "#sub-oh-03-drug-screening.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-ut-01",
+    "company": "Sierra UT Integration Services",
+    "contact_name": "Diane McLean",
+    "email": "diane.mclean@sierra-ut-integration-services.com",
+    "phone": "(575) 683-9292",
+    "address": {
+      "street": "6219 Distribution Rd",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "state_name": "Utah",
+      "zip": "78430",
+      "lat": 41.2624,
+      "lng": -112.0609
+    },
+    "capabilities": [
+      "Welding",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-ut-01-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2026-02-02",
+        "expires_date": "2027-02-02",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ut-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ut-01-doc-2",
+        "type": "W9",
+        "issued_date": "2022-07-01",
+        "expires_date": "2026-06-30",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ut-01-w9.pdf"
+      },
+      {
+        "id": "sub-ut-01-doc-3",
+        "type": "General Liability",
+        "issued_date": "2025-11-05",
+        "expires_date": "2026-11-05",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ut-01-general-liability.pdf"
+      }
+    ],
+    "notes": "Specializes in food and beverage facility work."
+  },
+  {
+    "id": "sub-ma-01",
+    "company": "Volunteer MA Material Systems Partners",
+    "contact_name": "Joel Chen",
+    "email": "joel.chen@volunteer-ma-material-systems-.com",
+    "phone": "(320) 343-3198",
+    "address": {
+      "street": "1108 Logistics Blvd",
+      "city": "Boston",
+      "state": "MA",
+      "state_name": "Massachusetts",
+      "zip": "24959",
+      "lat": 41.9858,
+      "lng": -71.2215
+    },
+    "capabilities": [
+      "Welding",
+      "Rigging",
+      "Crane Operator",
+      "Sheet Metal",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-ma-01-doc-1",
+        "type": "W9",
+        "issued_date": "2022-09-04",
+        "expires_date": "2026-09-03",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-01-w9.pdf"
+      },
+      {
+        "id": "sub-ma-01-doc-2",
+        "type": "Auto Liability",
+        "issued_date": "2025-06-10",
+        "expires_date": "2026-06-10",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-ma-01-doc-3",
+        "type": "Umbrella",
+        "issued_date": "2026-01-13",
+        "expires_date": "2027-01-13",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-01-umbrella.pdf"
+      },
+      {
+        "id": "sub-ma-01-doc-4",
+        "type": "Workers Comp",
+        "issued_date": "2025-07-21",
+        "expires_date": "2026-07-21",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ma-01-doc-5",
+        "type": "General Liability",
+        "issued_date": "2024-12-30",
+        "expires_date": "2025-12-30",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ma-01-general-liability.pdf"
+      }
+    ],
+    "notes": "Travel-willing; small but excellent crew."
+  },
+  {
+    "id": "sub-mn-02",
+    "company": "Liberty MN Industrial Group",
+    "contact_name": "Sarah Underwood",
+    "email": "sarah.underwood@liberty-mn-industrial-group.com",
+    "phone": "(427) 897-7797",
+    "address": {
+      "street": "3235 Distribution Ave",
+      "city": "Minneapolis",
+      "state": "MN",
+      "state_name": "Minnesota",
+      "zip": "45939",
+      "lat": 45.5417,
+      "lng": -93.6747
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Mechanical Install",
+      "Welding",
+      "Rigging"
+    ],
+    "documents": [
+      {
+        "id": "sub-mn-02-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2025-05-31",
+        "expires_date": "2026-05-31",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mn-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-mn-02-doc-2",
+        "type": "Drug Screening",
+        "issued_date": "2025-08-30",
+        "expires_date": "2026-08-30",
+        "coverage_limit": null,
+        "issuing_authority": "Concentra",
+        "pdf_url": "#sub-mn-02-drug-screening.pdf"
+      },
+      {
+        "id": "sub-mn-02-doc-3",
+        "type": "W9",
+        "issued_date": "2023-06-12",
+        "expires_date": "2027-06-11",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-mn-02-w9.pdf"
+      }
+    ],
+    "notes": "Travel-willing; small but excellent crew."
+  },
+  {
+    "id": "sub-ny-01",
+    "company": "Crossroads NY Rigging Services",
+    "contact_name": "Stephanie Hahn",
+    "email": "stephanie.hahn@crossroads-ny-rigging-services.com",
+    "phone": "(301) 809-7907",
+    "address": {
+      "street": "4283 Foundry Way",
+      "city": "Buffalo",
+      "state": "NY",
+      "state_name": "New York",
+      "zip": "18093",
+      "lat": 42.9467,
+      "lng": -78.7952
+    },
+    "capabilities": [
+      "Crane Operator",
+      "Site Survey",
+      "Sheet Metal"
+    ],
+    "documents": [
+      {
+        "id": "sub-ny-01-doc-1",
+        "type": "Umbrella",
+        "issued_date": "2026-08-13",
+        "expires_date": "2027-08-13",
+        "coverage_limit": "$10,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ny-01-umbrella.pdf"
+      },
+      {
+        "id": "sub-ny-01-doc-2",
+        "type": "State Contractor License",
+        "issued_date": "2025-05-05",
+        "expires_date": "2027-05-05",
+        "coverage_limit": null,
+        "issuing_authority": "NY Contractors Licensing Board",
+        "pdf_url": "#sub-ny-01-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-ny-01-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2026-10-03",
+        "expires_date": "2027-10-03",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ny-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ny-01-doc-4",
+        "type": "Auto Liability",
+        "issued_date": "2026-09-10",
+        "expires_date": "2027-09-10",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ny-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-ny-01-doc-5",
+        "type": "W9",
+        "issued_date": "2023-01-10",
+        "expires_date": "2027-01-09",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ny-01-w9.pdf"
+      },
+      {
+        "id": "sub-ny-01-doc-6",
+        "type": "General Liability",
+        "issued_date": "2025-02-09",
+        "expires_date": "2026-02-09",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ny-01-general-liability.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-oh-04",
+    "company": "Bayou OH Industrial Solutions",
+    "contact_name": "Ryan Patel",
+    "email": "ryan.patel@bayou-oh-industrial-solutions.com",
+    "phone": "(792) 415-5549",
+    "address": {
+      "street": "6889 Commerce Rd",
+      "city": "Columbus",
+      "state": "OH",
+      "state_name": "Ohio",
+      "zip": "85365",
+      "lat": 39.5651,
+      "lng": -83.0949
+    },
+    "capabilities": [
+      "Site Survey",
+      "Mechanical Install",
+      "Conveyor Install",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-oh-04-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2026-01-26",
+        "expires_date": "2027-01-26",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-04-auto-liability.pdf"
+      },
+      {
+        "id": "sub-oh-04-doc-2",
+        "type": "Umbrella",
+        "issued_date": "2025-06-26",
+        "expires_date": "2026-06-26",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-04-umbrella.pdf"
+      },
+      {
+        "id": "sub-oh-04-doc-3",
+        "type": "General Liability",
+        "issued_date": "2025-02-27",
+        "expires_date": "2026-02-27",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-04-general-liability.pdf"
+      },
+      {
+        "id": "sub-oh-04-doc-4",
+        "type": "Drug Screening",
+        "issued_date": "2026-08-10",
+        "expires_date": "2027-08-10",
+        "coverage_limit": null,
+        "issuing_authority": "Quest Diagnostics",
+        "pdf_url": "#sub-oh-04-drug-screening.pdf"
+      },
+      {
+        "id": "sub-oh-04-doc-5",
+        "type": "W9",
+        "issued_date": "2023-09-15",
+        "expires_date": "2027-09-14",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-04-w9.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-ca-03",
+    "company": "Anchor CA Material Systems LLC",
+    "contact_name": "Eric Stafford",
+    "email": "eric.stafford@anchor-ca-material-systems.com",
+    "phone": "(454) 976-9697",
+    "address": {
+      "street": "6864 Industrial Rd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "state_name": "California",
+      "zip": "55310",
+      "lat": 33.4884,
+      "lng": -118.5764
+    },
+    "capabilities": [
+      "Electrical Install",
+      "Conveyor Install",
+      "Rigging",
+      "Site Survey"
+    ],
+    "documents": [
+      {
+        "id": "sub-ca-03-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2026-03-18",
+        "expires_date": "2027-03-18",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-ca-03-osha-30.pdf"
+      },
+      {
+        "id": "sub-ca-03-doc-2",
+        "type": "General Liability",
+        "issued_date": "2025-06-20",
+        "expires_date": "2026-06-20",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ca-03-general-liability.pdf"
+      },
+      {
+        "id": "sub-ca-03-doc-3",
+        "type": "Umbrella",
+        "issued_date": "2025-11-09",
+        "expires_date": "2026-11-09",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ca-03-umbrella.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-co-01",
+    "company": "Coastal CO Mechanical Co.",
+    "contact_name": "Heather Park",
+    "email": "heather.park@coastal-co-mechanical-co.com",
+    "phone": "(764) 877-1286",
+    "address": {
+      "street": "8256 Forge Way",
+      "city": "Denver",
+      "state": "CO",
+      "state_name": "Colorado",
+      "zip": "72247",
+      "lat": 40.2925,
+      "lng": -104.4705
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Mechanical Install",
+      "Crane Operator",
+      "Site Survey"
+    ],
+    "documents": [
+      {
+        "id": "sub-co-01-doc-1",
+        "type": "W9",
+        "issued_date": "2022-08-19",
+        "expires_date": "2026-08-18",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-co-01-w9.pdf"
+      },
+      {
+        "id": "sub-co-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2026-04-24",
+        "expires_date": "2027-04-24",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-co-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-co-01-doc-3",
+        "type": "OSHA 30",
+        "issued_date": "2025-11-10",
+        "expires_date": "2026-11-10",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-co-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-co-01-doc-4",
+        "type": "General Liability",
+        "issued_date": "2025-04-10",
+        "expires_date": "2026-04-10",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-co-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-co-01-doc-5",
+        "type": "State Contractor License",
+        "issued_date": "2024-06-21",
+        "expires_date": "2026-06-21",
+        "coverage_limit": null,
+        "issuing_authority": "CO Contractors Licensing Board",
+        "pdf_url": "#sub-co-01-state-contractor-license.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-oh-02",
+    "company": "Summit OH Integration LLC",
+    "contact_name": "Mike Whittaker",
+    "email": "mike.whittaker@summit-oh-integration.com",
+    "phone": "(792) 783-7657",
+    "address": {
+      "street": "5075 Commerce Park Dr",
+      "city": "Columbus",
+      "state": "OH",
+      "state_name": "Ohio",
+      "zip": "48978",
+      "lat": 39.8312,
+      "lng": -83.2282
+    },
+    "capabilities": [
+      "Electrical Install",
+      "Welding",
+      "Sheet Metal",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-oh-02-doc-1",
+        "type": "W9",
+        "issued_date": "2022-07-21",
+        "expires_date": "2026-07-20",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-02-w9.pdf"
+      },
+      {
+        "id": "sub-oh-02-doc-2",
+        "type": "General Liability",
+        "issued_date": "2025-07-18",
+        "expires_date": "2026-07-18",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-02-general-liability.pdf"
+      },
+      {
+        "id": "sub-oh-02-doc-3",
+        "type": "OSHA 30",
+        "issued_date": "2025-09-29",
+        "expires_date": "2026-09-29",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-oh-02-osha-30.pdf"
+      },
+      {
+        "id": "sub-oh-02-doc-4",
+        "type": "Drug Screening",
+        "issued_date": "2025-07-20",
+        "expires_date": "2026-07-20",
+        "coverage_limit": null,
+        "issuing_authority": "Quest Diagnostics",
+        "pdf_url": "#sub-oh-02-drug-screening.pdf"
+      },
+      {
+        "id": "sub-oh-02-doc-5",
+        "type": "Workers Comp",
+        "issued_date": "2026-04-29",
+        "expires_date": "2027-04-29",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-oh-02-doc-6",
+        "type": "Auto Liability",
+        "issued_date": "2026-07-10",
+        "expires_date": "2027-07-10",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-02-auto-liability.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-mn-01",
+    "company": "Buckeye MN Fabrication Solutions",
+    "contact_name": "Megan Park",
+    "email": "megan.park@buckeye-mn-fabrication-solutio.com",
+    "phone": "(293) 808-9443",
+    "address": {
+      "street": "4713 Industrial Blvd",
+      "city": "Minneapolis",
+      "state": "MN",
+      "state_name": "Minnesota",
+      "zip": "27005",
+      "lat": 44.7663,
+      "lng": -93.8619
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-mn-01-doc-1",
+        "type": "Drug Screening",
+        "issued_date": "2025-12-12",
+        "expires_date": "2026-12-12",
+        "coverage_limit": null,
+        "issuing_authority": "Quest Diagnostics",
+        "pdf_url": "#sub-mn-01-drug-screening.pdf"
+      },
+      {
+        "id": "sub-mn-01-doc-2",
+        "type": "OSHA 30",
+        "issued_date": "2025-07-09",
+        "expires_date": "2026-07-09",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-mn-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-mn-01-doc-3",
+        "type": "Auto Liability",
+        "issued_date": "2025-06-21",
+        "expires_date": "2026-06-21",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mn-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-mn-01-doc-4",
+        "type": "Workers Comp",
+        "issued_date": "2025-06-24",
+        "expires_date": "2026-06-24",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mn-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-mn-01-doc-5",
+        "type": "General Liability",
+        "issued_date": "2025-10-19",
+        "expires_date": "2026-10-19",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mn-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-mn-01-doc-6",
+        "type": "W9",
+        "issued_date": "2022-09-09",
+        "expires_date": "2026-09-08",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-mn-01-w9.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-ak-02",
+    "company": "Summit AK Fabrication Solutions",
+    "contact_name": "Brian Hancock",
+    "email": "brian.hancock@summit-ak-fabrication-solution.com",
+    "phone": "(970) 926-4320",
+    "address": {
+      "street": "7487 Forge Rd",
+      "city": "Anchorage",
+      "state": "AK",
+      "state_name": "Alaska",
+      "zip": "43962",
+      "lat": 60.7746,
+      "lng": -150.2171
+    },
+    "capabilities": [
+      "Electrical Install",
+      "Rigging",
+      "Site Survey",
+      "Welding",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-ak-02-doc-1",
+        "type": "W9",
+        "issued_date": "2023-04-04",
+        "expires_date": "2027-04-03",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ak-02-w9.pdf"
+      },
+      {
+        "id": "sub-ak-02-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-10-15",
+        "expires_date": "2026-10-15",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ak-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ak-02-doc-3",
+        "type": "General Liability",
+        "issued_date": "2026-09-11",
+        "expires_date": "2027-09-11",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ak-02-general-liability.pdf"
+      }
+    ],
+    "notes": "Specializes in food and beverage facility work."
+  },
+  {
+    "id": "sub-oh-01",
+    "company": "Lone Star Fabrication Solutions",
+    "contact_name": "Mike Hahn",
+    "email": "mike.hahn@lone-star-fabrication-solution.com",
+    "phone": "(668) 585-8068",
+    "address": {
+      "street": "6458 Distribution Way",
+      "city": "Columbus",
+      "state": "OH",
+      "state_name": "Ohio",
+      "zip": "73367",
+      "lat": 39.5656,
+      "lng": -83.192
+    },
+    "capabilities": [
+      "Site Survey",
+      "Welding",
+      "Sheet Metal",
+      "Crane Operator",
+      "Rigging"
+    ],
+    "documents": [
+      {
+        "id": "sub-oh-01-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2025-09-13",
+        "expires_date": "2026-09-13",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-oh-01-doc-2",
+        "type": "General Liability",
+        "issued_date": "2026-06-16",
+        "expires_date": "2027-06-16",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-oh-01-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2026-10-23",
+        "expires_date": "2027-10-23",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-oh-01-workers-comp.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-tn-04",
+    "company": "Crescent TN Mechanical Group",
+    "contact_name": "Rachel Hahn",
+    "email": "rachel.hahn@crescent-tn-mechanical-group.com",
+    "phone": "(368) 859-8094",
+    "address": {
+      "street": "6796 Forge Blvd",
+      "city": "Memphis",
+      "state": "TN",
+      "state_name": "Tennessee",
+      "zip": "81637",
+      "lat": 35.6714,
+      "lng": -89.8541
+    },
+    "capabilities": [
+      "Crane Operator",
+      "Conveyor Install",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-tn-04-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2025-08-28",
+        "expires_date": "2026-08-28",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-04-workers-comp.pdf"
+      },
+      {
+        "id": "sub-tn-04-doc-2",
+        "type": "OSHA 30",
+        "issued_date": "2024-12-12",
+        "expires_date": "2025-12-12",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-tn-04-osha-30.pdf"
+      },
+      {
+        "id": "sub-tn-04-doc-3",
+        "type": "Auto Liability",
+        "issued_date": "2025-07-07",
+        "expires_date": "2026-07-07",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-04-auto-liability.pdf"
+      },
+      {
+        "id": "sub-tn-04-doc-4",
+        "type": "General Liability",
+        "issued_date": "2026-10-22",
+        "expires_date": "2027-10-22",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-04-general-liability.pdf"
+      },
+      {
+        "id": "sub-tn-04-doc-5",
+        "type": "W9",
+        "issued_date": "2022-09-14",
+        "expires_date": "2026-09-13",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-04-w9.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-in-03",
+    "company": "Mid-Continent IN Electrical Co.",
+    "contact_name": "Kim Vargas",
+    "email": "kim.vargas@mid-continent-in-electrical-co.com",
+    "phone": "(714) 649-2491",
+    "address": {
+      "street": "6477 Commerce Ave",
+      "city": "Indianapolis",
+      "state": "IN",
+      "state_name": "Indiana",
+      "zip": "37138",
+      "lat": 39.4756,
+      "lng": -85.9385
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Mechanical Install",
+      "Site Survey"
+    ],
+    "documents": [
+      {
+        "id": "sub-in-03-doc-1",
+        "type": "Workers Comp",
+        "issued_date": "2026-04-21",
+        "expires_date": "2027-04-21",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-in-03-workers-comp.pdf"
+      },
+      {
+        "id": "sub-in-03-doc-2",
+        "type": "OSHA 30",
+        "issued_date": "2026-09-25",
+        "expires_date": "2027-09-25",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-in-03-osha-30.pdf"
+      },
+      {
+        "id": "sub-in-03-doc-3",
+        "type": "Umbrella",
+        "issued_date": "2025-11-25",
+        "expires_date": "2026-11-25",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-in-03-umbrella.pdf"
+      },
+      {
+        "id": "sub-in-03-doc-4",
+        "type": "W9",
+        "issued_date": "2022-05-21",
+        "expires_date": "2026-05-20",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-in-03-w9.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-nv-01",
+    "company": "Cardinal NV Sortation Partners",
+    "contact_name": "Greg Stafford",
+    "email": "greg.stafford@cardinal-nv-sortation-partners.com",
+    "phone": "(510) 863-7293",
+    "address": {
+      "street": "1650 Mill Way",
+      "city": "Las Vegas",
+      "state": "NV",
+      "state_name": "Nevada",
+      "zip": "49778",
+      "lat": 35.7915,
+      "lng": -114.6468
+    },
+    "capabilities": [
+      "Rigging",
+      "Sheet Metal",
+      "Site Survey",
+      "Conveyor Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-nv-01-doc-1",
+        "type": "W9",
+        "issued_date": "2023-01-11",
+        "expires_date": "2027-01-10",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-nv-01-w9.pdf"
+      },
+      {
+        "id": "sub-nv-01-doc-2",
+        "type": "Auto Liability",
+        "issued_date": "2025-07-30",
+        "expires_date": "2026-07-30",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nv-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-nv-01-doc-3",
+        "type": "State Contractor License",
+        "issued_date": "2024-03-10",
+        "expires_date": "2027-03-10",
+        "coverage_limit": null,
+        "issuing_authority": "NV Contractors Licensing Board",
+        "pdf_url": "#sub-nv-01-state-contractor-license.pdf"
+      }
+    ],
+    "notes": "Prefer for retrofits where shutdown windows are tight."
+  },
+  {
+    "id": "sub-nc-02",
+    "company": "Buckeye NC Integration Services",
+    "contact_name": "Diane Bauer",
+    "email": "diane.bauer@buckeye-nc-integration-service.com",
+    "phone": "(711) 938-2659",
+    "address": {
+      "street": "8227 Foundry Park Dr",
+      "city": "Charlotte",
+      "state": "NC",
+      "state_name": "North Carolina",
+      "zip": "28153",
+      "lat": 34.6536,
+      "lng": -81.2511
+    },
+    "capabilities": [
+      "Crane Operator",
+      "Welding",
+      "Electrical Install",
+      "Mechanical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-nc-02-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2026-08-10",
+        "expires_date": "2027-08-10",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-nc-02-osha-30.pdf"
+      },
+      {
+        "id": "sub-nc-02-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2026-12-08",
+        "expires_date": "2027-12-08",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nc-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-nc-02-doc-3",
+        "type": "Umbrella",
+        "issued_date": "2026-03-28",
+        "expires_date": "2027-03-28",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nc-02-umbrella.pdf"
+      }
+    ],
+    "notes": "Specializes in food and beverage facility work."
+  },
+  {
+    "id": "sub-or-02",
+    "company": "Hawkeye OR Sortation Solutions",
+    "contact_name": "Karen O'Brien",
+    "email": "karen.o.brien@hawkeye-or-sortation-solutions.com",
+    "phone": "(371) 659-9950",
+    "address": {
+      "street": "2408 Industrial Blvd",
+      "city": "Portland",
+      "state": "OR",
+      "state_name": "Oregon",
+      "zip": "70036",
+      "lat": 45.1924,
+      "lng": -122.6285
+    },
+    "capabilities": [
+      "Site Survey",
+      "Sheet Metal",
+      "Electrical Install",
+      "Conveyor Install",
+      "Rigging"
+    ],
+    "documents": [
+      {
+        "id": "sub-or-02-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2024-11-30",
+        "expires_date": "2025-11-30",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-or-02-auto-liability.pdf"
+      },
+      {
+        "id": "sub-or-02-doc-2",
+        "type": "General Liability",
+        "issued_date": "2025-12-27",
+        "expires_date": "2026-12-27",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-or-02-general-liability.pdf"
+      },
+      {
+        "id": "sub-or-02-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2025-05-06",
+        "expires_date": "2026-05-06",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-or-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-or-02-doc-4",
+        "type": "OSHA 30",
+        "issued_date": "2026-02-02",
+        "expires_date": "2027-02-02",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-or-02-osha-30.pdf"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sub-tx-06",
+    "company": "Sun Belt TX Installation LLC",
+    "contact_name": "Carlos Bennett",
+    "email": "carlos.bennett@sun-belt-tx-installation.com",
+    "phone": "(221) 999-8561",
+    "address": {
+      "street": "3487 Mill Rd",
+      "city": "Dallas",
+      "state": "TX",
+      "state_name": "Texas",
+      "zip": "10733",
+      "lat": 32.8155,
+      "lng": -96.852
+    },
+    "capabilities": [
+      "Mechanical Install",
+      "Site Survey",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-tx-06-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2025-12-12",
+        "expires_date": "2026-12-12",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-06-auto-liability.pdf"
+      },
+      {
+        "id": "sub-tx-06-doc-2",
+        "type": "Drug Screening",
+        "issued_date": "2025-09-30",
+        "expires_date": "2026-09-30",
+        "coverage_limit": null,
+        "issuing_authority": "Quest Diagnostics",
+        "pdf_url": "#sub-tx-06-drug-screening.pdf"
+      },
+      {
+        "id": "sub-tx-06-doc-3",
+        "type": "General Liability",
+        "issued_date": "2026-05-08",
+        "expires_date": "2027-05-08",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-06-general-liability.pdf"
+      },
+      {
+        "id": "sub-tx-06-doc-4",
+        "type": "OSHA 30",
+        "issued_date": "2025-06-20",
+        "expires_date": "2026-06-20",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-tx-06-osha-30.pdf"
+      },
+      {
+        "id": "sub-tx-06-doc-5",
+        "type": "Workers Comp",
+        "issued_date": "2026-07-30",
+        "expires_date": "2027-07-30",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-06-workers-comp.pdf"
+      },
+      {
+        "id": "sub-tx-06-doc-6",
+        "type": "W9",
+        "issued_date": "2022-07-30",
+        "expires_date": "2026-07-29",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-06-w9.pdf"
+      }
+    ],
+    "notes": "New addition Q1 2026; small projects to date."
+  },
+  {
+    "id": "sub-id-01",
+    "company": "Sooner ID Material Systems Solutions",
+    "contact_name": "Marcus Bennett",
+    "email": "marcus.bennett@sooner-id-material-systems-sol.com",
+    "phone": "(716) 510-5671",
+    "address": {
+      "street": "3330 Industrial Way",
+      "city": "Boise",
+      "state": "ID",
+      "state_name": "Idaho",
+      "zip": "17360",
+      "lat": 43.6398,
+      "lng": -116.4621
+    },
+    "capabilities": [
+      "Electrical Install",
+      "Site Survey",
+      "Conveyor Install",
+      "Crane Operator",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-id-01-doc-1",
+        "type": "General Liability",
+        "issued_date": "2025-09-16",
+        "expires_date": "2026-09-16",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-id-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-id-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2026-10-28",
+        "expires_date": "2027-10-28",
+        "coverage_limit": "Statutory",
+        "issuing_authority": null,
+        "pdf_url": "#sub-id-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-id-01-doc-3",
+        "type": "W9",
+        "issued_date": "2022-07-16",
+        "expires_date": "2026-07-15",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-id-01-w9.pdf"
+      },
+      {
+        "id": "sub-id-01-doc-4",
+        "type": "State Contractor License",
+        "issued_date": "2024-05-17",
+        "expires_date": "2027-05-17",
+        "coverage_limit": null,
+        "issuing_authority": "ID Contractors Licensing Board",
+        "pdf_url": "#sub-id-01-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-id-01-doc-5",
+        "type": "Umbrella",
+        "issued_date": "2025-12-08",
+        "expires_date": "2026-12-08",
+        "coverage_limit": "$10,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-id-01-umbrella.pdf"
+      },
+      {
+        "id": "sub-id-01-doc-6",
+        "type": "Auto Liability",
+        "issued_date": "2026-01-11",
+        "expires_date": "2027-01-11",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-id-01-auto-liability.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-fl-02",
+    "company": "Old Dominion FL Fabrication Inc.",
+    "contact_name": "Greg Perez",
+    "email": "greg.perez@old-dominion-fl-fabrication-in.com",
+    "phone": "(294) 856-4257",
+    "address": {
+      "street": "8662 Mill Blvd",
+      "city": "Jacksonville",
+      "state": "FL",
+      "state_name": "Florida",
+      "zip": "74013",
+      "lat": 30.8429,
+      "lng": -82.2195
+    },
+    "capabilities": [
+      "Site Survey",
+      "Controls / PLC",
+      "Welding",
+      "Conveyor Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-fl-02-doc-1",
+        "type": "General Liability",
+        "issued_date": "2025-12-08",
+        "expires_date": "2026-12-08",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-02-general-liability.pdf"
+      },
+      {
+        "id": "sub-fl-02-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-12-12",
+        "expires_date": "2026-12-12",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-02-workers-comp.pdf"
+      },
+      {
+        "id": "sub-fl-02-doc-3",
+        "type": "Auto Liability",
+        "issued_date": "2026-03-21",
+        "expires_date": "2027-03-21",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-02-auto-liability.pdf"
+      },
+      {
+        "id": "sub-fl-02-doc-4",
+        "type": "Umbrella",
+        "issued_date": "2026-08-15",
+        "expires_date": "2027-08-15",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-fl-02-umbrella.pdf"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sub-nc-04",
+    "company": "Bayou NC Rigging Partners",
+    "contact_name": "Greg Perez",
+    "email": "greg.perez@bayou-nc-rigging-partners.com",
+    "phone": "(792) 286-2078",
+    "address": {
+      "street": "6660 Mill Park Dr",
+      "city": "Charlotte",
+      "state": "NC",
+      "state_name": "North Carolina",
+      "zip": "87758",
+      "lat": 34.9484,
+      "lng": -80.3611
+    },
+    "capabilities": [
+      "Welding",
+      "Site Survey"
+    ],
+    "documents": [
+      {
+        "id": "sub-nc-04-doc-1",
+        "type": "General Liability",
+        "issued_date": "2025-06-19",
+        "expires_date": "2026-06-19",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nc-04-general-liability.pdf"
+      },
+      {
+        "id": "sub-nc-04-doc-2",
+        "type": "Drug Screening",
+        "issued_date": "2026-07-14",
+        "expires_date": "2027-07-14",
+        "coverage_limit": null,
+        "issuing_authority": "Quest Diagnostics",
+        "pdf_url": "#sub-nc-04-drug-screening.pdf"
+      },
+      {
+        "id": "sub-nc-04-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2025-08-31",
+        "expires_date": "2026-08-31",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nc-04-workers-comp.pdf"
+      },
+      {
+        "id": "sub-nc-04-doc-4",
+        "type": "OSHA 30",
+        "issued_date": "2026-05-10",
+        "expires_date": "2027-05-10",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-nc-04-osha-30.pdf"
+      },
+      {
+        "id": "sub-nc-04-doc-5",
+        "type": "W9",
+        "issued_date": "2023-03-02",
+        "expires_date": "2027-03-01",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-nc-04-w9.pdf"
+      },
+      {
+        "id": "sub-nc-04-doc-6",
+        "type": "Auto Liability",
+        "issued_date": "2026-02-11",
+        "expires_date": "2027-02-11",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nc-04-auto-liability.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-ri-01",
+    "company": "Hilltop RI Rigging Group",
+    "contact_name": "Karen Nguyen",
+    "email": "karen.nguyen@hilltop-ri-rigging-group.com",
+    "phone": "(355) 731-8097",
+    "address": {
+      "street": "9964 Industrial Park Dr",
+      "city": "Providence",
+      "state": "RI",
+      "state_name": "Rhode Island",
+      "zip": "65525",
+      "lat": 41.8764,
+      "lng": -71.3124
+    },
+    "capabilities": [
+      "Crane Operator",
+      "Mechanical Install",
+      "Site Survey"
+    ],
+    "documents": [
+      {
+        "id": "sub-ri-01-doc-1",
+        "type": "W9",
+        "issued_date": "2022-08-02",
+        "expires_date": "2026-08-01",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-ri-01-w9.pdf"
+      },
+      {
+        "id": "sub-ri-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-11-10",
+        "expires_date": "2026-11-10",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ri-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ri-01-doc-3",
+        "type": "General Liability",
+        "issued_date": "2025-11-29",
+        "expires_date": "2026-11-29",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ri-01-general-liability.pdf"
+      }
+    ],
+    "notes": "Prefer for retrofits where shutdown windows are tight."
+  },
+  {
+    "id": "sub-il-02",
+    "company": "Tri-State IL Conveyor Inc.",
+    "contact_name": "Megan Davis",
+    "email": "megan.davis@tri-state-il-conveyor-inc.com",
+    "phone": "(276) 360-2751",
+    "address": {
+      "street": "4179 Distribution Park Dr",
+      "city": "Chicago",
+      "state": "IL",
+      "state_name": "Illinois",
+      "zip": "39591",
+      "lat": 42.4233,
+      "lng": -87.5082
+    },
+    "capabilities": [
+      "Site Survey",
+      "Controls / PLC",
+      "Electrical Install",
+      "Sheet Metal",
+      "Welding"
+    ],
+    "documents": [
+      {
+        "id": "sub-il-02-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2026-09-09",
+        "expires_date": "2027-09-09",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-02-auto-liability.pdf"
+      },
+      {
+        "id": "sub-il-02-doc-2",
+        "type": "Umbrella",
+        "issued_date": "2025-09-24",
+        "expires_date": "2026-09-24",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-02-umbrella.pdf"
+      },
+      {
+        "id": "sub-il-02-doc-3",
+        "type": "General Liability",
+        "issued_date": "2026-11-14",
+        "expires_date": "2027-11-14",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-02-general-liability.pdf"
+      }
+    ],
+    "notes": "Long-standing partner; preferred for large installs."
+  },
+  {
+    "id": "sub-nh-01",
+    "company": "Mountain NH Controls Partners",
+    "contact_name": "Sarah Davis",
+    "email": "sarah.davis@mountain-nh-controls-partners.com",
+    "phone": "(307) 469-9550",
+    "address": {
+      "street": "9492 Foundry Rd",
+      "city": "Manchester",
+      "state": "NH",
+      "state_name": "New Hampshire",
+      "zip": "62440",
+      "lat": 43.234,
+      "lng": -71.6111
+    },
+    "capabilities": [
+      "Electrical Install",
+      "Conveyor Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-nh-01-doc-1",
+        "type": "Umbrella",
+        "issued_date": "2025-06-23",
+        "expires_date": "2026-06-23",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nh-01-umbrella.pdf"
+      },
+      {
+        "id": "sub-nh-01-doc-2",
+        "type": "OSHA 30",
+        "issued_date": "2026-07-21",
+        "expires_date": "2027-07-21",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-nh-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-nh-01-doc-3",
+        "type": "W9",
+        "issued_date": "2023-11-11",
+        "expires_date": "2027-11-10",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-nh-01-w9.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-tn-02",
+    "company": "Sierra TN Material Systems Co.",
+    "contact_name": "Jamal Davis",
+    "email": "jamal.davis@sierra-tn-material-systems-co.com",
+    "phone": "(832) 856-5501",
+    "address": {
+      "street": "3315 Mill Ave",
+      "city": "Memphis",
+      "state": "TN",
+      "state_name": "Tennessee",
+      "zip": "64524",
+      "lat": 35.2177,
+      "lng": -89.9309
+    },
+    "capabilities": [
+      "Welding",
+      "Conveyor Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-tn-02-doc-1",
+        "type": "OSHA 30",
+        "issued_date": "2025-12-08",
+        "expires_date": "2026-12-08",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-tn-02-osha-30.pdf"
+      },
+      {
+        "id": "sub-tn-02-doc-2",
+        "type": "Drug Screening",
+        "issued_date": "2025-08-06",
+        "expires_date": "2026-08-06",
+        "coverage_limit": null,
+        "issuing_authority": "Concentra",
+        "pdf_url": "#sub-tn-02-drug-screening.pdf"
+      },
+      {
+        "id": "sub-tn-02-doc-3",
+        "type": "Umbrella",
+        "issued_date": "2025-09-26",
+        "expires_date": "2026-09-26",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-02-umbrella.pdf"
+      },
+      {
+        "id": "sub-tn-02-doc-4",
+        "type": "W9",
+        "issued_date": "2022-10-14",
+        "expires_date": "2026-10-13",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-02-w9.pdf"
+      },
+      {
+        "id": "sub-tn-02-doc-5",
+        "type": "Auto Liability",
+        "issued_date": "2026-03-17",
+        "expires_date": "2027-03-17",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-02-auto-liability.pdf"
+      }
+    ],
+    "notes": "Travel-willing; small but excellent crew."
+  },
+  {
+    "id": "sub-nj-01",
+    "company": "Rocky Mountain Sortation Partners",
+    "contact_name": "Stephanie Patel",
+    "email": "stephanie.patel@rocky-mountain-sortation-partn.com",
+    "phone": "(978) 319-2273",
+    "address": {
+      "street": "1245 Industrial Park Dr",
+      "city": "Newark",
+      "state": "NJ",
+      "state_name": "New Jersey",
+      "zip": "32275",
+      "lat": 40.5122,
+      "lng": -73.6559
+    },
+    "capabilities": [
+      "Site Survey",
+      "Sheet Metal",
+      "Rigging"
+    ],
+    "documents": [
+      {
+        "id": "sub-nj-01-doc-1",
+        "type": "W9",
+        "issued_date": "2023-06-25",
+        "expires_date": "2027-06-24",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-01-w9.pdf"
+      },
+      {
+        "id": "sub-nj-01-doc-2",
+        "type": "General Liability",
+        "issued_date": "2026-04-30",
+        "expires_date": "2027-04-30",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-nj-01-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2025-05-15",
+        "expires_date": "2026-05-15",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-nj-01-doc-4",
+        "type": "Auto Liability",
+        "issued_date": "2025-08-14",
+        "expires_date": "2026-08-14",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-nj-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-nj-01-doc-5",
+        "type": "OSHA 30",
+        "issued_date": "2025-02-21",
+        "expires_date": "2026-02-21",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-nj-01-osha-30.pdf"
+      }
+    ],
+    "notes": "Travel-willing; small but excellent crew."
+  },
+  {
+    "id": "sub-mi-02",
+    "company": "Diamond Sortation Services",
+    "contact_name": "Ryan Holloway",
+    "email": "ryan.holloway@diamond-sortation-services.com",
+    "phone": "(692) 249-5977",
+    "address": {
+      "street": "4525 Industrial Blvd",
+      "city": "Detroit",
+      "state": "MI",
+      "state_name": "Michigan",
+      "zip": "82026",
+      "lat": 42.6495,
+      "lng": -82.6037
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Site Survey",
+      "Welding",
+      "Conveyor Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-mi-02-doc-1",
+        "type": "Umbrella",
+        "issued_date": "2026-03-11",
+        "expires_date": "2027-03-11",
+        "coverage_limit": "$10,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mi-02-umbrella.pdf"
+      },
+      {
+        "id": "sub-mi-02-doc-2",
+        "type": "Auto Liability",
+        "issued_date": "2026-02-16",
+        "expires_date": "2027-02-16",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mi-02-auto-liability.pdf"
+      },
+      {
+        "id": "sub-mi-02-doc-3",
+        "type": "General Liability",
+        "issued_date": "2025-08-16",
+        "expires_date": "2026-08-16",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-mi-02-general-liability.pdf"
+      },
+      {
+        "id": "sub-mi-02-doc-4",
+        "type": "W9",
+        "issued_date": "2022-08-06",
+        "expires_date": "2026-08-05",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-mi-02-w9.pdf"
+      },
+      {
+        "id": "sub-mi-02-doc-5",
+        "type": "OSHA 30",
+        "issued_date": "2025-09-28",
+        "expires_date": "2026-09-28",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-mi-02-osha-30.pdf"
+      }
+    ],
+    "notes": "New addition Q1 2026; small projects to date."
+  },
+  {
+    "id": "sub-tx-05",
+    "company": "Bluegrass Rigging Solutions",
+    "contact_name": "Holly Perez",
+    "email": "holly.perez@bluegrass-rigging-solutions.com",
+    "phone": "(905) 576-5920",
+    "address": {
+      "street": "8932 Foundry Rd",
+      "city": "Dallas",
+      "state": "TX",
+      "state_name": "Texas",
+      "zip": "25542",
+      "lat": 32.3387,
+      "lng": -97.0848
+    },
+    "capabilities": [
+      "Welding",
+      "Mechanical Install",
+      "Conveyor Install",
+      "Electrical Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-tx-05-doc-1",
+        "type": "General Liability",
+        "issued_date": "2025-05-28",
+        "expires_date": "2026-05-28",
+        "coverage_limit": "$2,000,000 / $4,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-05-general-liability.pdf"
+      },
+      {
+        "id": "sub-tx-05-doc-2",
+        "type": "OSHA 30",
+        "issued_date": "2025-10-25",
+        "expires_date": "2026-10-25",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-tx-05-osha-30.pdf"
+      },
+      {
+        "id": "sub-tx-05-doc-3",
+        "type": "W9",
+        "issued_date": "2023-01-05",
+        "expires_date": "2027-01-04",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-05-w9.pdf"
+      },
+      {
+        "id": "sub-tx-05-doc-4",
+        "type": "State Contractor License",
+        "issued_date": "2024-07-29",
+        "expires_date": "2027-07-29",
+        "coverage_limit": null,
+        "issuing_authority": "TX Contractors Licensing Board",
+        "pdf_url": "#sub-tx-05-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-tx-05-doc-5",
+        "type": "Workers Comp",
+        "issued_date": "2025-10-29",
+        "expires_date": "2026-10-29",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-05-workers-comp.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-tx-04",
+    "company": "Crescent TX Builders Inc.",
+    "contact_name": "David Reed",
+    "email": "david.reed@crescent-tx-builders-inc.com",
+    "phone": "(246) 604-2155",
+    "address": {
+      "street": "2208 Industrial Ave",
+      "city": "Dallas",
+      "state": "TX",
+      "state_name": "Texas",
+      "zip": "55912",
+      "lat": 32.4349,
+      "lng": -96.2519
+    },
+    "capabilities": [
+      "Site Survey",
+      "Welding",
+      "Mechanical Install",
+      "Rigging",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-tx-04-doc-1",
+        "type": "State Contractor License",
+        "issued_date": "2024-07-30",
+        "expires_date": "2026-07-30",
+        "coverage_limit": null,
+        "issuing_authority": "TX Contractors Licensing Board",
+        "pdf_url": "#sub-tx-04-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-tx-04-doc-2",
+        "type": "Auto Liability",
+        "issued_date": "2025-06-22",
+        "expires_date": "2026-06-22",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-04-auto-liability.pdf"
+      },
+      {
+        "id": "sub-tx-04-doc-3",
+        "type": "Umbrella",
+        "issued_date": "2025-09-02",
+        "expires_date": "2026-09-02",
+        "coverage_limit": "$5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-04-umbrella.pdf"
+      },
+      {
+        "id": "sub-tx-04-doc-4",
+        "type": "General Liability",
+        "issued_date": "2025-12-09",
+        "expires_date": "2026-12-09",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-04-general-liability.pdf"
+      }
+    ],
+    "notes": "Specializes in food and beverage facility work."
+  },
+  {
+    "id": "sub-tn-01",
+    "company": "Cypress TN Conveyor Partners",
+    "contact_name": "Megan Park",
+    "email": "megan.park@cypress-tn-conveyor-partners.com",
+    "phone": "(448) 859-3009",
+    "address": {
+      "street": "9308 Logistics Park Dr",
+      "city": "Memphis",
+      "state": "TN",
+      "state_name": "Tennessee",
+      "zip": "69009",
+      "lat": 35.3814,
+      "lng": -90.3377
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Rigging",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-tn-01-doc-1",
+        "type": "W9",
+        "issued_date": "2023-10-18",
+        "expires_date": "2027-10-17",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-01-w9.pdf"
+      },
+      {
+        "id": "sub-tn-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2026-10-18",
+        "expires_date": "2027-10-18",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-tn-01-doc-3",
+        "type": "OSHA 30",
+        "issued_date": "2025-07-23",
+        "expires_date": "2026-07-23",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-tn-01-osha-30.pdf"
+      },
+      {
+        "id": "sub-tn-01-doc-4",
+        "type": "Auto Liability",
+        "issued_date": "2026-07-05",
+        "expires_date": "2027-07-05",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tn-01-auto-liability.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-ct-01",
+    "company": "North Star CT Integration Solutions",
+    "contact_name": "Tony Patel",
+    "email": "tony.patel@north-star-ct-integration-solu.com",
+    "phone": "(847) 227-6450",
+    "address": {
+      "street": "3717 Mill Blvd",
+      "city": "Hartford",
+      "state": "CT",
+      "state_name": "Connecticut",
+      "zip": "68527",
+      "lat": 42.2593,
+      "lng": -72.8536
+    },
+    "capabilities": [
+      "Conveyor Install",
+      "Sheet Metal",
+      "Welding",
+      "Rigging",
+      "Controls / PLC"
+    ],
+    "documents": [
+      {
+        "id": "sub-ct-01-doc-1",
+        "type": "General Liability",
+        "issued_date": "2025-08-29",
+        "expires_date": "2026-08-29",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ct-01-general-liability.pdf"
+      },
+      {
+        "id": "sub-ct-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2025-07-01",
+        "expires_date": "2026-07-01",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-ct-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-ct-01-doc-3",
+        "type": "State Contractor License",
+        "issued_date": "2024-11-17",
+        "expires_date": "2026-11-17",
+        "coverage_limit": null,
+        "issuing_authority": "CT Contractors Licensing Board",
+        "pdf_url": "#sub-ct-01-state-contractor-license.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-me-01",
+    "company": "Gulf Coast ME Electrical Solutions",
+    "contact_name": "Jamal Cole",
+    "email": "jamal.cole@gulf-coast-me-electrical-solut.com",
+    "phone": "(951) 984-5709",
+    "address": {
+      "street": "3354 Industrial Ave",
+      "city": "Portland",
+      "state": "ME",
+      "state_name": "Maine",
+      "zip": "95200",
+      "lat": 43.8493,
+      "lng": -70.2298
+    },
+    "capabilities": [
+      "Site Survey",
+      "Conveyor Install"
+    ],
+    "documents": [
+      {
+        "id": "sub-me-01-doc-1",
+        "type": "Auto Liability",
+        "issued_date": "2025-06-21",
+        "expires_date": "2026-06-21",
+        "coverage_limit": "$2,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-me-01-auto-liability.pdf"
+      },
+      {
+        "id": "sub-me-01-doc-2",
+        "type": "Workers Comp",
+        "issued_date": "2026-06-24",
+        "expires_date": "2027-06-24",
+        "coverage_limit": "$1,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-me-01-workers-comp.pdf"
+      },
+      {
+        "id": "sub-me-01-doc-3",
+        "type": "W9",
+        "issued_date": "2022-08-16",
+        "expires_date": "2026-08-15",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-me-01-w9.pdf"
+      },
+      {
+        "id": "sub-me-01-doc-4",
+        "type": "OSHA 30",
+        "issued_date": "2024-12-10",
+        "expires_date": "2025-12-10",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-me-01-osha-30.pdf"
+      }
+    ],
+    "notes": "Strong on parcel sortation site work."
+  },
+  {
+    "id": "sub-il-03",
+    "company": "Riverbend Sortation Group",
+    "contact_name": "Greg Holloway",
+    "email": "greg.holloway@riverbend-sortation-group.com",
+    "phone": "(407) 728-2341",
+    "address": {
+      "street": "1349 Foundry Blvd",
+      "city": "Chicago",
+      "state": "IL",
+      "state_name": "Illinois",
+      "zip": "64102",
+      "lat": 41.347,
+      "lng": -88.1858
+    },
+    "capabilities": [
+      "Controls / PLC",
+      "Crane Operator"
+    ],
+    "documents": [
+      {
+        "id": "sub-il-03-doc-1",
+        "type": "General Liability",
+        "issued_date": "2026-01-23",
+        "expires_date": "2027-01-23",
+        "coverage_limit": "$1,000,000 / $2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-03-general-liability.pdf"
+      },
+      {
+        "id": "sub-il-03-doc-2",
+        "type": "W9",
+        "issued_date": "2023-07-01",
+        "expires_date": "2027-06-30",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-03-w9.pdf"
+      },
+      {
+        "id": "sub-il-03-doc-3",
+        "type": "Workers Comp",
+        "issued_date": "2025-11-22",
+        "expires_date": "2026-11-22",
+        "coverage_limit": "$2,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-03-workers-comp.pdf"
+      },
+      {
+        "id": "sub-il-03-doc-4",
+        "type": "State Contractor License",
+        "issued_date": "2023-11-28",
+        "expires_date": "2026-11-27",
+        "coverage_limit": null,
+        "issuing_authority": "IL Contractors Licensing Board",
+        "pdf_url": "#sub-il-03-state-contractor-license.pdf"
+      },
+      {
+        "id": "sub-il-03-doc-5",
+        "type": "Auto Liability",
+        "issued_date": "2025-10-23",
+        "expires_date": "2026-10-23",
+        "coverage_limit": "$1,000,000 CSL",
+        "issuing_authority": null,
+        "pdf_url": "#sub-il-03-auto-liability.pdf"
+      }
+    ],
+    "notes": "Has crews available for short-notice mobilization."
+  },
+  {
+    "id": "sub-tx-03",
+    "company": "Cardinal Material Systems Inc.",
+    "contact_name": "David Caldwell",
+    "email": "david.caldwell@cardinal-material-systems-inc.com",
+    "phone": "(598) 487-2420",
+    "address": {
+      "street": "3483 Commerce Ave",
+      "city": "Dallas",
+      "state": "TX",
+      "state_name": "Texas",
+      "zip": "48561",
+      "lat": 32.2604,
+      "lng": -96.3836
+    },
+    "capabilities": [
+      "Electrical Install",
+      "Sheet Metal"
+    ],
+    "documents": [
+      {
+        "id": "sub-tx-03-doc-1",
+        "type": "General Liability",
+        "issued_date": "2026-10-22",
+        "expires_date": "2027-10-22",
+        "coverage_limit": "$5,000,000 / $5,000,000",
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-03-general-liability.pdf"
+      },
+      {
+        "id": "sub-tx-03-doc-2",
+        "type": "W9",
+        "issued_date": "2022-09-12",
+        "expires_date": "2026-09-11",
+        "coverage_limit": null,
+        "issuing_authority": null,
+        "pdf_url": "#sub-tx-03-w9.pdf"
+      },
+      {
+        "id": "sub-tx-03-doc-3",
+        "type": "Drug Screening",
+        "issued_date": "2026-04-17",
+        "expires_date": "2027-04-17",
+        "coverage_limit": null,
+        "issuing_authority": "LabCorp",
+        "pdf_url": "#sub-tx-03-drug-screening.pdf"
+      },
+      {
+        "id": "sub-tx-03-doc-4",
+        "type": "OSHA 30",
+        "issued_date": "2026-11-22",
+        "expires_date": "2027-11-22",
+        "coverage_limit": null,
+        "issuing_authority": "OSHA Outreach Training Program",
+        "pdf_url": "#sub-tx-03-osha-30.pdf"
+      }
+    ],
+    "notes": "New addition Q1 2026; small projects to date."
+  }
+]
