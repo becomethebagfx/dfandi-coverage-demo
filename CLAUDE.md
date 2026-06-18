@@ -1,103 +1,108 @@
 @AGENTS.md
 
-# DF&I Subcontractor Coverage Demo — Build Plan + Loop State
+# DF&I Subcontractor Coverage - Custom App (Build Plan + Loop State)
 
-> Autonomous Ralph-loop project. Each iteration: read this file, do the next unchecked checkpoint, run the wiring audit at the bottom, mark progress, repeat. STOP when DONE = true.
+> Autonomous Ralph-loop project. Each iteration: read this file, do the next unchecked checkpoint, run the wiring audit at the bottom, mark progress, commit + push (auto-deploys to Render), repeat. STOP when DONE = true.
 
 ## DONE
 DONE: false
 
-## CONTEXT (do not lose)
-**Who:** Clark Brown (President, DF&I = Design Fabricators & Integrators, Louisville KY). Custom material-handling integrator. Discovery meeting 2026-05-27. As of 2026-06-18 Clark paused the QuickBooks-to-Excel automation engagement to hire a controller first. He is still interested in the **subcontractor coverage map**. This demo is the proactive pitch Brandon will send him next week.
+## CURRENT DIRECTION (2026-06-18 pivot, do not lose)
+This is **NOT a SaaS marketing site with pricing tiers.** It is a **custom internal application built FOR Design Fabricators & Integrators**, the kind The Solution Service LLC ships per client. There is no `/pricing` page. Instead, **premium / agentic AI features are marked with small "Premium" badges INSIDE the app** so DF&I can see what's automated vs manual, and the configuration of those features lives in **`/settings`** (Microsoft OAuth, email integration, notification preferences, document type catalog, outreach template).
 
-**For Brandon to send the deployed Render URL to Clark cc Travis + Olivia, with a short note.**
+Brandon will send the live URL to Clark + Travis + Olivia + Jen as a working preview of what the actual product would feel like for their org. It must look and feel like a real shipped product, not a prototype.
 
-**The real value (per RULE 0.5 layer-up):**
-1. Liability exposure: never get caught with an uncovered sub on a live install. #1 driver.
-2. Sales velocity at bid: instant answer to "do we have qualified subs in [state]?" when bidding.
-3. Operational drag reduction: stop manually chasing PDFs and expiry emails.
-4. Coverage strategy: see geographic gaps to inform recruiting.
+## NON-NEGOTIABLES
+- Production-grade design language (no generic gradient + plain white card vibe).
+- Distinctive typography pair (not Inter, not Space Grotesk). Editorial serif display + industrial sans body + monospace numerics.
+- 100% responsive 320 -> 1920px. Tested at 375x812 (iPhone), 768x1024 (iPad), 1440x1100 (desktop). Top nav becomes a sheet/drawer below md. Tables become stacked cards below md. The Leaflet map never overflows the viewport.
+- Em-dash rule (Rule 7): zero em-dashes (-) or en-dashes anywhere. Sweep before each commit.
+- All existing functionality preserved (React-Leaflet map stays client-only via dynamic import).
+- Auto-deploy on `git push` (Render is wired to the repo).
 
-## STACK
-- Next.js 15 (App Router) + TypeScript + Tailwind v4 + Turbopack
-- React-Leaflet + Leaflet (free OSM tiles, no Mapbox API key)
-- US states GeoJSON (Natural Earth or public domain)
-- lucide-react for icons
-- Sample data: JSON file at `src/data/contractors.json` and `src/data/states.json`
-- No backend / no auth for demo (read-only static data)
-- Deploy: Render web service (Next.js standalone), workspace `tea-d4ov5v1r0fns73ck7nvg`
+## LIVE
+- URL: https://dfandi-coverage-demo.onrender.com
+- GitHub: https://github.com/becomethebagfx/dfandi-coverage-demo
+- Render service: srv-d8q0eaurnols738acgfg (workspace tea-d4ov5v1r0fns73ck7nvg, starter, Oregon)
 
-## PAGES (Next.js App Router)
-- `/` Dashboard: brand hero, KPI cards (Total subs, States covered, Critical alerts, Expiring 90d), interactive US choropleth map with hover-state-count tooltips, contractor pins, side filters, critical-alert ticker below
-- `/map` Same map, full-screen variant
-- `/contractors` Sortable + filterable list (state, capability, status, search by name)
-- `/contractors/[id]` Detail: contractor profile, every document with expiry badges, contact card, capabilities, jurisdictions, outreach button
-- `/alerts` Risk queue grouped by tier: expired (red) | <30d (red) | <90d (amber) | <180d (yellow) | OK (green)
-- `/outreach` AI agent outreach: select a contractor, see drafted email (Claude/Anthropic-style), [Demo] Send button shows toast
+## DESIGN LANGUAGE (commit to this)
+- **Display font:** Fraunces (variable serif) for headlines + section labels. Editorial weight, signals seriousness.
+- **Body font:** IBM Plex Sans for body + UI. Industrial, clear, anti-techy.
+- **Numerics font:** JetBrains Mono for KPI numbers, counts, dollar amounts, dates.
+- **Palette:**
+  - Background: warm off-white (`#fbfaf7`), not pure white
+  - Ink: deep blue-near-black (`#0d1220`)
+  - Accent: deep brass/amber (`#c97a2b`) used sparingly for emphasis
+  - Steel: muted blue (`#26415a`) for secondary information
+  - Status: rose-700 / amber-700 / emerald-700 / steel-500 (muted, restrained)
+- **Shape:** thin borders (1px), small radii (4-6px max), restrained shadow (subtle 1px ring + minimal drop). No bubbly cards.
+- **Spacing:** 4-point grid. Generous vertical rhythm.
+- **Texture:** subtle grain or noise on the hero band (CSS data-uri SVG), not gradients.
+- **Motion:** restrained. Staggered reveal on first paint only. Hover states are micro (1-2px color change, no scaling animations).
 
-## DATA MODEL
-- Contractor: id, company, contact_name, email, phone, address {street, city, state, zip, lat, lng}, capabilities[], status, notes
-- Document: id, contractor_id, type (General Liability | Workers Comp | Auto Liability | Umbrella | State Contractor License | OSHA 30 | Drug Screening | W9), issued_date, expires_date, coverage_limit?, issuing_authority?, pdf_url?
-- Capability enum: Mechanical Install | Electrical Install | Controls/PLC | Conveyor Install | Rigging | Crane Operator | Welding | Sheet Metal | Site Survey
-- Document.status derives from expires_date: expired | critical (<30d) | warning (<90d) | upcoming (<180d) | ok
-- Contractor.status = worst document status
+## APP STRUCTURE (final)
+Routes:
+- `/` Dashboard - KPI strip, action queue, map preview, state risk list. Premium badge on the Action Queue if it implies autonomous monitoring.
+- `/map` Full-screen interactive choropleth + pins. Mobile: full width with sticky filter bar.
+- `/contractors` List + filters. Mobile: stacked cards, filter sheet at top.
+- `/contractors/[id]` Profile + every document + outreach button.
+- `/alerts` Tiered risk queue (Expired / <30d / <90d / <180d). Premium badge on the Auto-Outreach action.
+- `/outreach` AI-drafted outreach composer. Whole page is Premium (Tier 3 agentic capability).
+- `/upload` (NEW) Drag-and-drop with two modes: Manual (Tier 1, no AI) and Smart Intake (Premium, AI auto-extracts type/dates/coverage and auto-matches contractor). Both demoable.
+- `/settings` (NEW) Settings panel: Microsoft 365 / Outlook OAuth connect, email-sending config, notification preferences, document type catalog, outreach email template editor, team & roles, audit log preview.
 
-## SAMPLE DATA RULES
-- ~90 fictional contractors, US-wide with bias toward UPS/FedEx hub states (KY, TN, OH, IN, IL, MS, FL, TX, GA, AZ, NV, CA, NJ, PA)
-- Plausible company-name patterns (e.g. "Bluegrass Conveyor Services LLC", "Sun Belt Material Systems", etc.)
-- Each contractor: 3-6 documents
-- Realistic expiration spread: ~8% expired, ~10% <30d, ~15% <90d, ~25% <180d, rest ok
-- Coordinates roughly placed in major cities of each state
-- Capabilities distributed (some specialist, some generalist)
+Components to add or rebuild:
+- `Nav` - mobile drawer below md, refined typography, accent color for active link
+- `KpiCard` - thin border, monospace numerics, no shadow
+- `StatusBadge` - muted, refined dot + label
+- `PremiumBadge` (NEW) - tiny "PREMIUM" pill in brass; appears next to features that depend on the AI agent
+- `Dropzone` (NEW) - file dropzone shared by /upload (and reusable in /settings -> bulk import)
+- `SegmentedToggle` (NEW) - Manual / Smart Intake toggle on /upload
+- `IntegrationCard` (NEW) - settings card for Microsoft, email, etc.
+- `SectionLabel` (NEW) - small uppercase tracked label used throughout pages
+- `MobileNavSheet` (NEW) - off-canvas menu for sub-md
 
-## BUILD CHECKPOINTS (Ralph-loop walks these)
-- [x] C1: Project scaffolded (next 15 + TS + Tailwind + App Router + src dir)
-- [x] C2: Install deps (react-leaflet, leaflet, @types/leaflet, lucide-react, clsx)
-- [x] C3: Generate sample data: src/data/contractors.json, fetch US states GeoJSON to src/data/us-states.json
-- [x] C4: Types + data loaders (src/lib/types.ts, src/lib/data.ts, src/lib/status.ts)
-- [x] C5: Shell layout: top nav (DF&I logo lockup, page links, DEMO badge), Tailwind theme tokens (DF&I blue), 8-pt grid, root layout
-- [x] C6: KPI cards component + dashboard top section
-- [x] C7: Interactive US choropleth map component (hover-tooltips per state with count + risk; click to filter list)
-- [x] C8: Contractor pins overlay on the map (clustered when zoomed out, status-colored)
-- [x] C9: Filters sidebar (state, capability, status, search) wired to URL params
-- [x] C10: /contractors list view (sortable cards/table)
-- [x] C11: /contractors/[id] detail page
-- [x] C12: /alerts page (tiered queue)
-- [x] C13: /outreach page (contractor picker + drafted email preview + [Demo] Send toast)
-- [ ] C14: Polish: empty states, loading skeletons, responsive on tablet, accessibility pass
-- [x] C15: Wiring audit (em-dash sweep, broken-link sweep, type-check npm run build passes)
-- [ ] C16: Create public GitHub repo dfandi-coverage-demo under brandonhayman.b
-- [ ] C17: Git commit + push
-- [ ] C18: Deploy to Render via API (workspace tea-d4ov5v1r0fns73ck7nvg), get public URL
-- [ ] C19: Smoke test deployed URL (curl + Playwright screenshots on the 6 pages)
-- [ ] C20: Set DONE: true and update this file
+## SAMPLE DATA (already done)
+- 90 contractors across 39 states, 389 documents, realistic risk spread.
+- See `src/data/contractors.json` and `src/data/us-states.json`.
+- Do not regenerate.
 
-## WIRING AUDIT (run each iteration before marking next checkpoint complete)
-- npm run build must succeed
-- grep for em/en dash bytes in src/ returns nothing (Rule 7)
-- Every page renders without runtime error (npm run dev for spot check)
-- No any types in committed code (TS strict mode)
-- Sample data: at least 75 contractors, every state >= 1 contractor in at least 30 states, expired/critical/warning/ok spread present
-- Map: clicking a state filters the list; clicking a marker opens the detail page
+## BUILD CHECKPOINTS (Ralph-loop walks these in order)
+- [x] C1-C20: Initial demo built + deployed (see git history, all done earlier today)
 
-## DEPLOYMENT NOTES
+PIVOT WORK (2026-06-18 second pass, all incomplete):
+- [ ] C21: Install distinctive fonts via next/font (Fraunces + IBM Plex Sans + JetBrains Mono). Update globals.css tokens to match new palette. Verify build.
+- [ ] C22: Rebuild `Nav` with mobile drawer (sheet from right). New typography. Active-link underline in brass accent. Replace "Coverage Map" link with "Map", add "Upload" and "Settings" entries. No "Pricing" link.
+- [ ] C23: Create `PremiumBadge` component (small brass pill, all-caps tracked text PREMIUM, optional tooltip). Add it next to: /outreach page title, /upload Smart Intake mode, /alerts auto-outreach action, dashboard action-queue header.
+- [ ] C24: Rebuild `KpiCard` and `StatusBadge` in new design system. Refined, monospace numerics, no bubbly background tones.
+- [ ] C25: Redesign Dashboard (/) - section labels, refined hero (typography-led, not gradient), KPI strip, embedded map, action queue, state risk list. Fully mobile responsive.
+- [ ] C26: Redesign `/map` page - mobile sticky filter, map fills viewport down to bottom of screen, no overflow.
+- [ ] C27: Redesign `/contractors` page - desktop table -> stacked cards below md. Filter form collapses into a sheet.
+- [ ] C28: Redesign `/contractors/[id]` profile page - editorial layout, document timeline with refined status badges, premium-badged outreach button.
+- [ ] C29: Redesign `/alerts` page - tier sections with refined headers, premium badge on the auto-outreach feature.
+- [ ] C30: Redesign `/outreach` page (the composer) - keep functionality, refined chrome, add Premium badge to page header explaining this is the Tier 3 agent in action.
+- [ ] C31: Build `/upload` page - Dropzone component, Manual / Smart Intake segmented toggle, contractor picker (searchable list of 90 + Create-new inline form), date inputs, coverage limit, save toast. Smart Intake mode simulates AI extraction by parsing the filename for state codes / doc-type keywords and pre-filling, with a confidence badge. Premium badge on the Smart Intake side.
+- [ ] C32: Build `/settings` page - sections: Microsoft 365 connection (button shows "Connect" -> mocked connected state), Email sending (mock), Notification preferences (sliders for 180/90/30/day-of cadence per tier), Document type catalog (chips + add new), Outreach email template editor (textarea + variable picker), Team & roles (table with 4 placeholder rows), Audit log preview (mock entries).
+- [ ] C33: Mobile pass on every route at 375x812. Fix any overflow, font-size, tap-target issue. Use Playwright headless (or Chrome headless) to verify at 375x812, 768x1024, and 1440x1100.
+- [ ] C34: Wiring audit: em-dash sweep clean, `npm run build` passes, every route 200 OK on the deployed URL.
+- [ ] C35: Take screenshots at the 3 viewports for each of the 8 routes (24 total) into `screenshots/v2/`.
+- [ ] C36: Update engagement memory + dfandi-ai/CONTINUITY.md with the new URL state + pivot note.
+- [ ] C37: Mark DONE = true.
+
+## WIRING AUDIT (run every iteration before checking a box)
+1. `cd /Users/bjwet/dfandi-coverage-demo && npm run build` must succeed.
+2. `grep -rnE "$(printf '\xe2\x80\x94|\xe2\x80\x93')" --include="*.ts" --include="*.tsx" --include="*.css" --include="*.md" src/` must return nothing (Rule 7).
+3. No `any` types in committed code (TS strict).
+4. After commit + push: wait ~3 min, then smoke test the live URL with curl on at least `/`, `/upload`, `/settings`.
+5. Visual check: open `/` at 375 width (Playwright headless `--window-size=375,812`) and confirm no horizontal scrollbar.
+
+## DEPLOY
 - Render API key: rnd_VCIstdS0rlWoiUbxoCjWlXN232EL
-- Workspace ID: tea-d4ov5v1r0fns73ck7nvg (brandonhayman.b@gmail.com personal)
-- Region: oregon (default) or ohio for closer-to-Louisville latency
-- Web Service config: build = npm install && npm run build, start = npm run start, Node 22, plan = free or starter
-- Auto-deploy from GitHub main branch
-- Once live, update CONTINUITY in /Users/bjwet/dfandi-ai/ with the URL
-
-## ACCEPTANCE CRITERIA (what "done" means)
-1. Brandon can open the live Render URL on his phone and the map works
-2. Hovering Texas shows "Texas: N contractors, M expiring soon"
-3. Critical alerts ticker on home page surfaces at least one expired-document case
-4. /outreach shows a drafted AI email that reads like Claude wrote it
-5. No em-dashes anywhere
-6. Production build green
-7. Screenshots saved for record
+- Service ID: srv-d8q0eaurnols738acgfg
+- Auto-deploys on push to `main`; first build is the previous one already live.
 
 ## LOOP RULES
-- Each iteration: read this file -> find first unchecked [ ] -> do it -> run the wiring audit -> check it [x] -> commit progress -> continue
-- If stuck twice in a row on the same checkpoint: write a question to TODO_FOR_BRANDON.md at the project root with file:line + what's needed and continue with what is possible
-- Never silently skip a checkpoint
+- Each iteration: read this file -> find first unchecked [ ] -> do it -> run the wiring audit -> commit + push -> check the box -> continue.
+- If stuck twice on the same checkpoint: write to `TODO_FOR_BRANDON.md` at the project root with file:line + what is needed, then continue with what is possible.
+- Never silently skip a checkpoint.
+- Em-dash rule fires before every commit.

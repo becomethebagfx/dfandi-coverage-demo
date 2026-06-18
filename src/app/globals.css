@@ -3,37 +3,126 @@
 @import "leaflet/dist/leaflet.css";
 
 @theme {
-  --color-brand-50:  #eef4ff;
-  --color-brand-100: #d9e6ff;
-  --color-brand-200: #b9d2ff;
-  --color-brand-300: #8eb3ff;
-  --color-brand-400: #5e8cf7;
-  --color-brand-500: #3866e8;
-  --color-brand-600: #2349cd;
-  --color-brand-700: #1d3aa3;
-  --color-brand-800: #1b3282;
-  --color-brand-900: #0f1d52;
-  --color-ink:       #0b1530;
-  --color-ink-soft:  #1f2a4d;
-  --color-paper:     #f7f9fc;
+  /* ---- palette: warm paper, ink near-black, brass accent, steel secondary ---- */
+  --color-paper:      #fbfaf7;
+  --color-paper-soft: #f3eee5;
+  --color-ink:        #0d1220;
+  --color-ink-soft:   #2c3145;
+  --color-steel:      #26415a;
+  --color-steel-soft: #5b738a;
+  --color-brass:      #c97a2b;
+  --color-brass-soft: #e2a567;
+  --color-brass-tint: #f8efe1;
+  --color-rule:       rgba(13, 18, 32, 0.10);
+
+  /* Status (muted, restrained) */
+  --color-status-expired:  #9f1239;
+  --color-status-critical: #b91c1c;
+  --color-status-warning:  #b45309;
+  --color-status-upcoming: #a16207;
+  --color-status-ok:       #15803d;
+
+  --font-display: var(--font-display), "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-sans:    var(--font-body), "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono:    var(--font-mono), "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
 
 html, body {
   background: var(--color-paper);
   color: var(--color-ink);
+  font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
-/* Leaflet sometimes ends up beneath fixed nav; pin it down. */
-.leaflet-container { background: #eaf0f8; }
+/* Subtle paper-grain texture across the entire app (very low contrast). */
+.bg-grain {
+  background-image:
+    radial-gradient(at 20% 0%, rgba(201, 122, 43, 0.045) 0, transparent 55%),
+    radial-gradient(at 100% 100%, rgba(38, 65, 90, 0.04) 0, transparent 55%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='1.05' numOctaves='2' seed='8'/><feColorMatrix type='matrix' values='0 0 0 0 0.05 0 0 0 0 0.07 0 0 0 0 0.12 0 0 0 0.045 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  background-size: auto, auto, 240px 240px;
+}
+
+/* Display headings: variable serif at heavier optical size */
+.font-display { font-family: var(--font-display); font-feature-settings: "ss01"; font-variation-settings: "opsz" 120, "SOFT" 30; }
+.font-mono    { font-family: var(--font-mono); }
+
+/* Small uppercase tracked label used across pages. */
+.section-label {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-steel-soft);
+  font-weight: 500;
+}
+
+/* Hairline rule (single source for borders). */
+.rule { border-color: var(--color-rule); }
+
+/* Leaflet: keep map under nav. */
+.leaflet-container { background: #e7ecf2; }
 .leaflet-pane { z-index: 0; }
 .leaflet-top, .leaflet-bottom { z-index: 1; }
+.leaflet-tooltip {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--color-rule);
+  box-shadow: 0 1px 0 var(--color-rule);
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
 
-/* Subtle animated pulse for "critical" state markers. */
+/* Pulse ring (kept). */
 @keyframes pulse-ring {
-  0%   { box-shadow: 0 0 0 0 rgba(225, 29, 72, 0.45); }
-  70%  { box-shadow: 0 0 0 12px rgba(225, 29, 72, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(225, 29, 72, 0); }
+  0%   { box-shadow: 0 0 0 0 rgba(159, 18, 57, 0.45); }
+  70%  { box-shadow: 0 0 0 12px rgba(159, 18, 57, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(159, 18, 57, 0); }
 }
 .pulse-ring { animation: pulse-ring 2s infinite; border-radius: 9999px; }
+
+/* Staggered first-paint reveal: opt-in by adding .reveal to direct children. */
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.reveal > * {
+  opacity: 0;
+  animation: reveal-up 600ms ease-out forwards;
+}
+.reveal > *:nth-child(1) { animation-delay: 60ms; }
+.reveal > *:nth-child(2) { animation-delay: 140ms; }
+.reveal > *:nth-child(3) { animation-delay: 220ms; }
+.reveal > *:nth-child(4) { animation-delay: 300ms; }
+.reveal > *:nth-child(5) { animation-delay: 380ms; }
+.reveal > *:nth-child(6) { animation-delay: 460ms; }
+.reveal > *:nth-child(n+7) { animation-delay: 540ms; }
+
+/* Premium badge (defined once, used everywhere). */
+.premium-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  background: var(--color-brass-tint);
+  color: var(--color-brass);
+  border: 1px solid var(--color-brass-soft);
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+/* Refined focus rings. */
+:where(button, a, input, select, textarea, [role="button"]):focus-visible {
+  outline: 2px solid var(--color-brass);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* Anti-overflow safety net for mobile. */
+img, svg, video { max-width: 100%; height: auto; }
