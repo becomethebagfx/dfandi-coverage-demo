@@ -1,7 +1,7 @@
 import USMap from "@/components/Map/USMapDynamic";
 import { summarize } from "@/lib/data";
 
-export const metadata = { title: "Coverage Map — DF&I Subcontractor Coverage" };
+export const metadata = { title: "Coverage Map  -  DF&I Subcontractor Coverage" };
 
 export default async function MapPage({ searchParams }: { searchParams: Promise<{ state?: string }> }) {
   const sp = await searchParams;

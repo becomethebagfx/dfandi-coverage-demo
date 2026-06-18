@@ -2,7 +2,7 @@ import { CONTRACTORS } from "@/lib/data";
 import { OutreachComposer } from "@/components/OutreachComposer";
 import { tierForContractor } from "@/lib/status";
 
-export const metadata = { title: "Outreach — DF&I Subcontractor Coverage" };
+export const metadata = { title: "Outreach  -  DF&I Subcontractor Coverage" };
 
 export default async function OutreachPage({ searchParams }: { searchParams: Promise<{ id?: string }> }) {
   const sp = await searchParams;

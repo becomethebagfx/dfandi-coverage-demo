@@ -13,7 +13,7 @@ const TIERS: StatusTier[] = ["expired", "critical", "warning", "upcoming", "ok"]
 
 interface SP { state?: string; capability?: string; status?: string; q?: string }
 
-export const metadata = { title: "Contractors — DF&I Subcontractor Coverage" };
+export const metadata = { title: "Contractors  -  DF&I Subcontractor Coverage" };
 
 export default async function ContractorsPage({ searchParams }: { searchParams: Promise<SP> }) {
   const sp = await searchParams;

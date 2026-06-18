@@ -5,7 +5,7 @@ import type { StatusTier } from "@/lib/types";
 import { StatusBadge } from "@/components/StatusBadge";
 import { Send, AlertOctagon, AlertCircle, Clock, CheckCircle2 } from "lucide-react";
 
-export const metadata = { title: "Alerts — DF&I Subcontractor Coverage" };
+export const metadata = { title: "Alerts  -  DF&I Subcontractor Coverage" };
 
 type Item = { contractor_id: string; company: string; city: string; state: string; doc_type: string; expires: string; days: number; tier: StatusTier };
 
