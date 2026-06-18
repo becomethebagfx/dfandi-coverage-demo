@@ -3,9 +3,11 @@ import { CONTRACTORS, fmtDate } from "@/lib/data";
 import { tierForDoc, daysUntil, TIER_STYLE } from "@/lib/status";
 import type { StatusTier } from "@/lib/types";
 import { StatusBadge } from "@/components/StatusBadge";
+import { SectionLabel } from "@/components/SectionLabel";
+import { PremiumBadge } from "@/components/PremiumBadge";
 import { Send, AlertOctagon, AlertCircle, Clock, CheckCircle2 } from "lucide-react";
 
-export const metadata = { title: "Alerts  -  DF&I Subcontractor Coverage" };
+export const metadata = { title: "Alerts - DF&I Subcontractor Coverage" };
 
 type Item = { contractor_id: string; company: string; city: string; state: string; doc_type: string; expires: string; days: number; tier: StatusTier };
 
@@ -42,60 +44,70 @@ export default function AlertsPage() {
   const b = bucket();
   const tiers: Array<Exclude<StatusTier, "ok">> = ["expired", "critical", "warning", "upcoming"];
   return (
-    <div className="space-y-8">
-      <div>
-        <h1 className="text-2xl font-semibold">Alerts</h1>
-        <p className="text-sm text-slate-500">Every document that needs attention, grouped by how urgent it is.</p>
-      </div>
+    <div className="mx-auto max-w-6xl px-5 sm:px-8 pt-10 pb-16">
+      <header className="border-b border-[var(--color-ink)]/10 pb-6">
+        <SectionLabel>Action queue</SectionLabel>
+        <h1 className="font-display mt-2 text-[30px] sm:text-[40px] tracking-tight">Alerts</h1>
+        <p className="mt-3 max-w-2xl text-[13px] text-[var(--color-ink)]/65 leading-relaxed">
+          Every document that needs attention, grouped by urgency. The autonomous agent is already
+          on this queue; you only see what it could not close on its own.
+        </p>
+        <div className="mt-3"><PremiumBadge label="Agent-managed queue" /></div>
+      </header>
 
-      {tiers.map((t) => {
-        const m = TIER_META[t];
-        const items = b[t];
-        return (
-          <section key={t} className="rounded-2xl border border-slate-200 bg-white overflow-hidden">
-            <header className="flex items-center justify-between px-5 py-3 border-b border-slate-100" style={{ background: `${TIER_STYLE[t].fill}10` }}>
-              <div className="flex items-center gap-2">
-                <m.Icon className="h-4 w-4" style={{ color: TIER_STYLE[t].fill }} />
-                <div>
-                  <div className="font-semibold text-sm">{m.title}</div>
-                  <div className="text-[11px] text-slate-500">{m.subtitle}</div>
+      <div className="mt-8 space-y-6">
+        {tiers.map((t) => {
+          const m = TIER_META[t];
+          const items = b[t];
+          const tone = TIER_STYLE[t].fill;
+          return (
+            <section key={t} className="rounded-[6px] border border-[var(--color-ink)]/10 bg-[var(--color-paper)] overflow-hidden">
+              <header className="flex items-center justify-between gap-3 px-5 py-3 border-b border-[var(--color-ink)]/8 flex-wrap">
+                <div className="flex items-center gap-3">
+                  <m.Icon className="h-4 w-4" style={{ color: tone }} />
+                  <div>
+                    <div className="font-display text-[18px] tracking-tight">{m.title}</div>
+                    <div className="text-[11px] text-[var(--color-ink)]/55 font-mono uppercase tracking-[0.18em]">{m.subtitle}</div>
+                  </div>
                 </div>
-              </div>
-              <div className="text-xs text-slate-500">{items.length} item{items.length === 1 ? "" : "s"}</div>
-            </header>
-            {items.length === 0 ? (
-              <div className="px-5 py-6 text-sm text-slate-500">Nothing in this tier. Nice.</div>
-            ) : (
-              <ul className="divide-y divide-slate-100">
-                {items.slice(0, 20).map((it) => (
-                  <li key={`${it.contractor_id}-${it.doc_type}`} className="px-5 py-3 flex flex-wrap items-center gap-3">
-                    <StatusBadge tier={it.tier}>
-                      {it.days < 0 ? `${Math.abs(it.days)}d ago` : `${it.days}d`}
-                    </StatusBadge>
-                    <div className="flex-1 min-w-64">
-                      <div className="text-sm font-medium">
-                        <Link href={`/contractors/${it.contractor_id}`} className="hover:underline">{it.company}</Link>
+                <div className="text-[11px] font-mono tabular-nums text-[var(--color-ink)]/55">{items.length} item{items.length === 1 ? "" : "s"}</div>
+              </header>
+              {items.length === 0 ? (
+                <div className="px-5 py-6 text-[13px] text-[var(--color-ink)]/55">Nothing in this tier. Nice.</div>
+              ) : (
+                <ul className="divide-y divide-[var(--color-ink)]/8">
+                  {items.slice(0, 20).map((it) => (
+                    <li key={`${it.contractor_id}-${it.doc_type}`} className="px-5 py-3 flex flex-wrap items-center gap-3">
+                      <StatusBadge tier={it.tier}>
+                        {it.days < 0 ? `${Math.abs(it.days)}d ago` : `${it.days}d`}
+                      </StatusBadge>
+                      <div className="flex-1 min-w-48">
+                        <div className="text-[13px] font-medium">
+                          <Link href={`/contractors/${it.contractor_id}`} className="hover:text-[var(--color-brass)]">{it.company}</Link>
+                        </div>
+                        <div className="text-[11px] text-[var(--color-ink)]/55 font-mono uppercase tracking-[0.06em]">
+                          {it.doc_type} &middot; {fmtDate(it.expires)} &middot; {it.city}, {it.state}
+                        </div>
                       </div>
-                      <div className="text-[11px] text-slate-500">
-                        {it.doc_type} &middot; {fmtDate(it.expires)} &middot; {it.city}, {it.state}
-                      </div>
-                    </div>
-                    <Link
-                      href={`/outreach?id=${it.contractor_id}`}
-                      className="text-[11px] font-semibold px-3 py-1.5 rounded-md bg-slate-900 text-white hover:bg-slate-800 inline-flex items-center gap-1"
-                    >
-                      <Send className="h-3 w-3" /> Outreach
-                    </Link>
-                  </li>
-                ))}
-                {items.length > 20 && (
-                  <li className="px-5 py-3 text-[11px] text-slate-500">+ {items.length - 20} more in this tier...</li>
-                )}
-              </ul>
-            )}
-          </section>
-        );
-      })}
+                      <Link
+                        href={`/outreach?id=${it.contractor_id}`}
+                        className="text-[11px] font-mono uppercase tracking-[0.18em] px-3 py-1.5 rounded-[3px] bg-[var(--color-ink)] text-[var(--color-paper)] hover:bg-[var(--color-ink-soft)] inline-flex items-center gap-1.5"
+                      >
+                        <Send className="h-3 w-3" /> Outreach
+                      </Link>
+                    </li>
+                  ))}
+                  {items.length > 20 && (
+                    <li className="px-5 py-3 text-[11px] font-mono uppercase tracking-[0.18em] text-[var(--color-ink)]/55">
+                      + {items.length - 20} more in this tier...
+                    </li>
+                  )}
+                </ul>
+              )}
+            </section>
+          );
+        })}
+      </div>
     </div>
   );
 }

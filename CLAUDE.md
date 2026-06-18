@@ -75,14 +75,14 @@ PIVOT WORK (2026-06-18 second pass, all incomplete):
 - [x] C22: Rebuild `Nav` with mobile drawer (sheet from right). New typography. Active-link underline in brass accent. Replace "Coverage Map" link with "Map", add "Upload" and "Settings" entries. No "Pricing" link.
 - [x] C23: Create `PremiumBadge` component (small brass pill, all-caps tracked text PREMIUM, optional tooltip). Add it next to: /outreach page title, /upload Smart Intake mode, /alerts auto-outreach action, dashboard action-queue header.
 - [x] C24: Rebuild `KpiCard` and `StatusBadge` in new design system. Refined, monospace numerics, no bubbly background tones.
-- [ ] C25: Redesign Dashboard (/) - section labels, refined hero (typography-led, not gradient), KPI strip, embedded map, action queue, state risk list. Fully mobile responsive.
-- [ ] C26: Redesign `/map` page - mobile sticky filter, map fills viewport down to bottom of screen, no overflow.
-- [ ] C27: Redesign `/contractors` page - desktop table -> stacked cards below md. Filter form collapses into a sheet.
-- [ ] C28: Redesign `/contractors/[id]` profile page - editorial layout, document timeline with refined status badges, premium-badged outreach button.
-- [ ] C29: Redesign `/alerts` page - tier sections with refined headers, premium badge on the auto-outreach feature.
-- [ ] C30: Redesign `/outreach` page (the composer) - keep functionality, refined chrome, add Premium badge to page header explaining this is the Tier 3 agent in action.
-- [ ] C31: Build `/upload` page - Dropzone component, Manual / Smart Intake segmented toggle, contractor picker (searchable list of 90 + Create-new inline form), date inputs, coverage limit, save toast. Smart Intake mode simulates AI extraction by parsing the filename for state codes / doc-type keywords and pre-filling, with a confidence badge. Premium badge on the Smart Intake side.
-- [ ] C32: Build `/settings` page - sections: Microsoft 365 connection (button shows "Connect" -> mocked connected state), Email sending (mock), Notification preferences (sliders for 180/90/30/day-of cadence per tier), Document type catalog (chips + add new), Outreach email template editor (textarea + variable picker), Team & roles (table with 4 placeholder rows), Audit log preview (mock entries).
+- [x] C25: Redesign Dashboard (/) - section labels, refined hero (typography-led, not gradient), KPI strip, embedded map, action queue, state risk list. Fully mobile responsive.
+- [x] C26: Redesign `/map` page - mobile sticky filter, map fills viewport down to bottom of screen, no overflow.
+- [x] C27: Redesign `/contractors` page - desktop table -> stacked cards below md. Filter form collapses into a sheet.
+- [x] C28: Redesign `/contractors/[id]` profile page - editorial layout, document timeline with refined status badges, premium-badged outreach button.
+- [x] C29: Redesign `/alerts` page - tier sections with refined headers, premium badge on the auto-outreach feature.
+- [x] C30: Redesign `/outreach` page (the composer) - keep functionality, refined chrome, add Premium badge to page header explaining this is the Tier 3 agent in action.
+- [x] C31: Build `/upload` page - Dropzone component, Manual / Smart Intake segmented toggle, contractor picker (searchable list of 90 + Create-new inline form), date inputs, coverage limit, save toast. Smart Intake mode simulates AI extraction by parsing the filename for state codes / doc-type keywords and pre-filling, with a confidence badge. Premium badge on the Smart Intake side.
+- [x] C32: Build `/settings` page - sections: Microsoft 365 connection (button shows "Connect" -> mocked connected state), Email sending (mock), Notification preferences (sliders for 180/90/30/day-of cadence per tier), Document type catalog (chips + add new), Outreach email template editor (textarea + variable picker), Team & roles (table with 4 placeholder rows), Audit log preview (mock entries).
 - [ ] C33: Mobile pass on every route at 375x812. Fix any overflow, font-size, tap-target issue. Use Playwright headless (or Chrome headless) to verify at 375x812, 768x1024, and 1440x1100.
 - [ ] C34: Wiring audit: em-dash sweep clean, `npm run build` passes, every route 200 OK on the deployed URL.
 - [ ] C35: Take screenshots at the 3 viewports for each of the 8 routes (24 total) into `screenshots/v2/`.
@@ -101,8 +101,53 @@ PIVOT WORK (2026-06-18 second pass, all incomplete):
 - Service ID: srv-d8q0eaurnols738acgfg
 - Auto-deploys on push to `main`; first build is the previous one already live.
 
-## LOOP RULES
-- Each iteration: read this file -> find first unchecked [ ] -> do it -> run the wiring audit -> commit + push -> check the box -> continue.
-- If stuck twice on the same checkpoint: write to `TODO_FOR_BRANDON.md` at the project root with file:line + what is needed, then continue with what is possible.
+## LOOP RULES (extended 2026-06-18)
+- Each iteration: read this file -> find first unchecked [ ] -> do it -> run the WIRING AUDIT -> run the PHASE-CLOSE REVIEW below -> commit + push -> check the box -> continue.
+- Max 1000 iterations (session-bounded; the 5-min cron naturally caps at ~2000 over 7 days, but stop early when DONE: true).
+- Update this file AND `progress.txt` at the project root after every meaningful action so a context reset can resume from the file alone (compaction-safe).
+- If stuck twice on the same checkpoint: write to `TODO_FOR_BRANDON.md` with file:line + what is needed, then continue with what is possible.
 - Never silently skip a checkpoint.
 - Em-dash rule fires before every commit.
+
+## PHASE-CLOSE REVIEW (run after every multi-file change, before commit)
+Senior engineer PR review on the diff:
+1. **Correctness bugs.** Walk every changed function. Edge cases (empty arrays, null props, mobile widths, very long strings). Note file:line + the failure mode.
+2. **Performance.** Look for accidental O(n^2), unnecessary re-renders, large client bundles, images without dimensions. Note file:line + the hot path.
+3. **Security.** XSS via dangerouslySetInnerHTML, leaked secrets in client code, untrusted external URLs in src. Note file:line + the risk.
+4. **Readability.** Dead code, magic numbers, inconsistent naming. Note file:line.
+5. **Contract audit (frontend <-> data).** For every component, check: props it expects vs what callers pass; types in src/lib/types.ts vs the JSON shape; helper functions in src/lib/data.ts vs how pages consume them; any data transformations and whether they invert correctly. Format: `<file:line> | expected: <shape> | actual: <shape> | fix: <change>`. Fix every Tier 1 before commit.
+
+## JOBS / IVE DESIGN AUDIT PROTOCOL (run alongside the PR review on UI changes)
+For every screen and every component the phase touched, evaluate (do not implement during the audit):
+- **Hierarchy:** does the eye land where it should within 2 seconds?
+- **Spacing & rhythm:** consistent vertical rhythm; nothing cramped.
+- **Typography:** every size earns its hierarchy; no competing weights.
+- **Color:** restrained; brass used only for emphasis, never decoration.
+- **Alignment:** every element on the grid; nothing off by 1-2px.
+- **Components:** identical look + behavior across screens.
+- **Iconography:** lucide-react only; consistent stroke/size.
+- **Motion:** purposeful only; no decoration; respect prefers-reduced-motion.
+- **Empty / loading / error states:** every screen has an intentional version of each.
+- **Density:** can any element be removed without losing meaning? If yes, remove.
+- **Responsiveness:** intentional at 320 / 375 / 768 / 1024 / 1440 / 1920, not just "scaled".
+- **Accessibility:** focus rings, contrast, ARIA labels, keyboard reach.
+
+Apply the Jobs filter to every element on every changed screen:
+1. Would a user need to be told this exists? If yes, redesign.
+2. Can this be removed without losing meaning? If yes, remove.
+3. Does this feel inevitable? If no, keep refining.
+4. Are the details users never see as refined as the visible ones?
+
+Output a tiered list per phase: PHASE-1 Critical / PHASE-2 Refinement / PHASE-3 Polish. Fix Critical before commit. Refinement and Polish open new checkpoints (C-design-N) that the loop walks later. Do NOT silently ship cosmetic fixes; reference the design rule each fix serves.
+
+## OPS RESILIENCE (so the loop survives outages)
+- Source of truth = GitHub. All code + sample data committed.
+- Render is rebuildable: `git push` triggers a full rebuild from main; no state lives only on the Render box.
+- Sample data is in-repo (`src/data/contractors.json`, `src/data/us-states.json`). No external API or DB to lose.
+- The CLAUDE.md checkpoint state is in-repo. After every checkpoint, commit so a fresh context can pick up from the file alone.
+- Screenshots live in `screenshots/` and are committed.
+- Render service spec is documented in this file (id, plan, region, build/start commands).
+- If Render dies: redeploy via `curl -X POST https://api.render.com/v1/services -d {...}` with the API key + same repo URL + same config; new URL issued; we point the world at it.
+- If GitHub dies: local clone in `/Users/bjwet/dfandi-coverage-demo` is the working copy; can re-push to a new origin.
+- If the local Mac dies: the GitHub repo is the master.
+- Loop continuity: this file + progress.txt is the only state the next iteration needs.

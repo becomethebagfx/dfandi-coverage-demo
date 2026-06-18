@@ -1,0 +1,28 @@
+DF&I Coverage demo - progress log (most recent first)
+
+2026-06-18 ~14:00 UTC  Pivot #2 in progress
+  - Design system rebuilt: Fraunces + IBM Plex Sans + JetBrains Mono, warm-paper palette, brass accent, hairline borders, paper-grain background.
+  - Nav.tsx rebuilt with mobile drawer; Upload + Settings entries; no Pricing.
+  - KpiCard, StatusBadge refined; new PremiumBadge + SectionLabel components.
+  - Dashboard (/) rebuilt: editorial header, KPI strip, embedded map + action queue + state risk.
+  - /upload built: drop, Smart Intake (Premium) AI extraction stub + Manual mode toggle.
+  - /settings built: M365 SSO connect (mock), email config, agentic cadence table, doc catalog, outreach template, team, audit log.
+  - Loop protocol extended: per-phase PR review + Jobs/Ive design audit before each commit.
+  - Architecture file added at README_ARCHITECTURE.md.
+
+2026-06-18 ~13:00 UTC  v1 shipped
+  - Initial app: home + map + contractors + contractor detail + alerts + outreach.
+  - 90 sample contractors across 39 states with 389 documents.
+  - Deployed at https://dfandi-coverage-demo.onrender.com.
+
+Currently pending (loop iterates these):
+  C26 /map         redesign on new system
+  C27 /contractors redesign + mobile stacked
+  C28 /contractors/[id]
+  C29 /alerts
+  C30 /outreach with Premium badge in header
+  C33 mobile pass at 375x812
+  C34 wiring audit
+  C35 screenshots v2
+  C36 memory + CONTINUITY refresh
+  C37 DONE = true
