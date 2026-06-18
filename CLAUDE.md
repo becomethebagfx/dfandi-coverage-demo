@@ -83,7 +83,7 @@ PIVOT WORK (2026-06-18 second pass, all incomplete):
 - [x] C30: Redesign `/outreach` page (the composer) - keep functionality, refined chrome, add Premium badge to page header explaining this is the Tier 3 agent in action.
 - [x] C31: Build `/upload` page - Dropzone component, Manual / Smart Intake segmented toggle, contractor picker (searchable list of 90 + Create-new inline form), date inputs, coverage limit, save toast. Smart Intake mode simulates AI extraction by parsing the filename for state codes / doc-type keywords and pre-filling, with a confidence badge. Premium badge on the Smart Intake side.
 - [x] C32: Build `/settings` page - sections: Microsoft 365 connection (button shows "Connect" -> mocked connected state), Email sending (mock), Notification preferences (sliders for 180/90/30/day-of cadence per tier), Document type catalog (chips + add new), Outreach email template editor (textarea + variable picker), Team & roles (table with 4 placeholder rows), Audit log preview (mock entries).
-- [ ] C33: Mobile pass on every route at 375x812. Fix any overflow, font-size, tap-target issue. Use Playwright headless (or Chrome headless) to verify at 375x812, 768x1024, and 1440x1100.
+- [x] C33: Mobile pass on every route at 375x812. Fix any overflow, font-size, tap-target issue. Use Playwright headless (or Chrome headless) to verify at 375x812, 768x1024, and 1440x1100.
 - [ ] C34: Wiring audit: em-dash sweep clean, `npm run build` passes, every route 200 OK on the deployed URL.
 - [ ] C35: Take screenshots at the 3 viewports for each of the 8 routes (24 total) into `screenshots/v2/`.
 - [ ] C36: Update engagement memory + dfandi-ai/CONTINUITY.md with the new URL state + pivot note.

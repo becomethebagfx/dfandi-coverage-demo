@@ -99,7 +99,10 @@ export default function HomePage() {
                 Hover, click, drill in.
               </h2>
             </div>
-            <Link href="/map" className="text-[12px] inline-flex items-center gap-1 text-[var(--color-steel)] hover:text-[var(--color-brass)]">
+            <Link
+              href="/map"
+              className="inline-flex items-center gap-1.5 text-[12px] text-[var(--color-steel)] hover:text-[var(--color-brass)] py-2 px-1 -my-1 -mr-1"
+            >
               Full screen <ArrowUpRight className="h-3 w-3" />
             </Link>
           </div>
@@ -116,7 +119,10 @@ export default function HomePage() {
                 <SectionLabel>Action queue</SectionLabel>
                 <PremiumBadge label="Agentic" title="The autonomous agent monitors expirations and surfaces these for you." />
               </div>
-              <Link href="/alerts" className="text-[11px] text-[var(--color-steel)] hover:text-[var(--color-brass)]">
+              <Link
+                href="/alerts"
+                className="text-[11px] text-[var(--color-steel)] hover:text-[var(--color-brass)] py-2 px-1 -my-1 -mr-1"
+              >
                 View all
               </Link>
             </div>
