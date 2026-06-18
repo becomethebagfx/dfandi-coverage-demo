@@ -91,7 +91,7 @@ export default function AlertsPage() {
                       </div>
                       <Link
                         href={`/outreach?id=${it.contractor_id}`}
-                        className="text-[11px] font-mono uppercase tracking-[0.18em] px-3 py-1.5 rounded-[3px] bg-[var(--color-ink)] text-[var(--color-paper)] hover:bg-[var(--color-ink-soft)] inline-flex items-center gap-1.5"
+                        className="text-[11px] font-mono uppercase tracking-[0.18em] px-3 py-2.5 min-h-[36px] rounded-[3px] bg-[var(--color-ink)] text-[var(--color-paper)] hover:bg-[var(--color-ink-soft)] inline-flex items-center gap-1.5"
                       >
                         <Send className="h-3 w-3" /> Outreach
                       </Link>

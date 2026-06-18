@@ -21,7 +21,10 @@ export default async function ContractorDetailPage({ params }: { params: Promise
 
   return (
     <div className="mx-auto max-w-5xl px-5 sm:px-8 pt-8 pb-16">
-      <Link href="/contractors" className="inline-flex items-center gap-1 text-[12px] text-[var(--color-ink)]/55 hover:text-[var(--color-ink)]">
+      <Link
+        href="/contractors"
+        className="inline-flex items-center gap-1.5 text-[12px] text-[var(--color-ink)]/65 hover:text-[var(--color-ink)] py-2 px-1 -my-2 -ml-1"
+      >
         <ArrowLeft className="h-3.5 w-3.5" /> Back to contractors
       </Link>
 

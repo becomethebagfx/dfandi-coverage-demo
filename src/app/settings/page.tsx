@@ -175,7 +175,7 @@ export default function SettingsPage() {
                 {d}
               </span>
             ))}
-            <button className="inline-flex items-center px-2.5 py-1 rounded-[3px] border border-dashed border-[var(--color-brass)] text-[12px] text-[var(--color-brass)] hover:bg-[var(--color-brass-tint)]">
+            <button className="inline-flex items-center px-3 py-2 min-h-[36px] rounded-[3px] border border-dashed border-[var(--color-brass)] text-[12px] text-[var(--color-brass)] hover:bg-[var(--color-brass-tint)]">
               + Add type
             </button>
           </div>
