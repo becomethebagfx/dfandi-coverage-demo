@@ -140,6 +140,34 @@ Apply the Jobs filter to every element on every changed screen:
 
 Output a tiered list per phase: PHASE-1 Critical / PHASE-2 Refinement / PHASE-3 Polish. Fix Critical before commit. Refinement and Polish open new checkpoints (C-design-N) that the loop walks later. Do NOT silently ship cosmetic fixes; reference the design rule each fix serves.
 
+## VISUAL AUDITOR (mandatory after every UI commit)
+After every push that touches src/, wait for Render to deploy then run:
+
+    npm run audit:visual
+
+This walks every route at mobile / tablet / desktop, screenshots full pages,
+and reports:
+- overflow-x (page wider than viewport)
+- nav-overflow (header doesn't fit)
+- h1-low-opacity (text rendering invisible)
+- tiny-tap-targets (under 30px tall on mobile)
+- http-error / js-error / navigation-error
+
+Findings land in `screenshots/audit/REPORT.md`. The exit code is non-zero when any of:
+http-error, js-error, overflow-x, nav-overflow are present. Treat those as
+blocking and fix BEFORE the next checkpoint. Use HEADED=1 to watch the run.
+
+## MOBILE-FIRST CHECKLIST (must pass on every UI change)
+For every page you touch, before commit, eyeball at 375x812 in dev or via headless:
+- Nothing overflows horizontally
+- Heading does not get cut off
+- KPI grid wraps to 2 cols
+- Tables become stacked cards
+- Tap targets >= 32x32
+- Forms readable; inputs full-width
+- Map fills viewport, never clips
+The visual-audit script enforces a subset of this automatically.
+
 ## OPS RESILIENCE (so the loop survives outages)
 - Source of truth = GitHub. All code + sample data committed.
 - Render is rebuildable: `git push` triggers a full rebuild from main; no state lives only on the Render box.

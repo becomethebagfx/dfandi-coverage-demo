@@ -20,43 +20,50 @@ function safeName(p) {
   return p.replace(/^\//, "root").replace(/\//g, "_").replace(/[^a-z0-9_.-]/gi, "");
 }
 
-/** Run inside the page: find issues we care about. */
-const PAGE_AUDIT = `
-(() => {
-  const issues = [];
-  const W = window.innerWidth;
-  if (document.documentElement.scrollWidth > W + 1) {
-    issues.push({ kind: "overflow-x", detail: \`scrollWidth=\${document.documentElement.scrollWidth} > viewport=\${W}\` });
-  }
-  // Nav overflow: header should not scroll horizontally.
-  const header = document.querySelector("header");
-  if (header && header.scrollWidth > header.clientWidth + 1) {
-    issues.push({ kind: "nav-overflow", detail: \`headerScroll=\${header.scrollWidth} > clientWidth=\${header.clientWidth}\` });
-  }
-  // Hero contrast: scan h1 visible color vs body bg.
-  const h1 = document.querySelector("h1");
-  if (h1) {
-    const s = getComputedStyle(h1);
-    const op = parseFloat(s.opacity || "1");
-    if (op < 0.9) issues.push({ kind: "h1-low-opacity", detail: \`opacity=\${op}\` });
-    const c = s.color;
-    issues.push({ kind: "h1-color", detail: c });
-  }
-  // Tap targets: links / buttons smaller than 32x32 on mobile only.
-  if (W <= 480) {
-    const tiny = [...document.querySelectorAll("a, button")]
-      .filter(el => {
+/** Run inside the page: find issues we care about. Passed as a function so we
+ *  can use template literals inside without nesting-backtick hell. */
+async function runPageAudit(page) {
+  return page.evaluate(() => {
+    const issues = [];
+    const W = window.innerWidth;
+    if (document.documentElement.scrollWidth > W + 1) {
+      // find the widest leaf element to point the finger
+      let widest = null;
+      for (const el of document.querySelectorAll("body, body *")) {
         const r = el.getBoundingClientRect();
-        if (r.width === 0 || r.height === 0) return false;
-        return r.height < 30;
-      })
-      .slice(0, 6)
-      .map(el => ({ tag: el.tagName, text: (el.innerText || el.getAttribute("aria-label") || "").slice(0, 40), h: Math.round(el.getBoundingClientRect().height) }));
-    if (tiny.length) issues.push({ kind: "tiny-tap-targets", detail: JSON.stringify(tiny) });
-  }
-  return issues;
-})()
-`;
+        const right = r.left + r.width;
+        if (right - W > 2 && (!widest || right > widest.right)) {
+          widest = { tag: el.tagName, cls: (el.className || "").toString().slice(0, 60), right: Math.round(right), w: Math.round(r.width) };
+        }
+      }
+      issues.push({ kind: "overflow-x", detail: "scrollWidth=" + document.documentElement.scrollWidth + " > viewport=" + W + (widest ? " widest=" + JSON.stringify(widest) : "") });
+    }
+    const header = document.querySelector("header");
+    if (header && header.scrollWidth > header.clientWidth + 1) {
+      issues.push({ kind: "nav-overflow", detail: "headerScroll=" + header.scrollWidth + " > clientWidth=" + header.clientWidth });
+    }
+    const h1 = document.querySelector("h1");
+    if (h1) {
+      const s = getComputedStyle(h1);
+      const op = parseFloat(s.opacity || "1");
+      if (op < 0.9) issues.push({ kind: "h1-low-opacity", detail: "opacity=" + op });
+      issues.push({ kind: "h1-color", detail: s.color });
+    }
+    if (W <= 480) {
+      const tiny = [];
+      for (const el of document.querySelectorAll("a, button")) {
+        const r = el.getBoundingClientRect();
+        if (r.width === 0 || r.height === 0) continue;
+        if (r.height < 30) {
+          tiny.push({ tag: el.tagName, text: (el.innerText || el.getAttribute("aria-label") || "").slice(0, 40), h: Math.round(r.height) });
+          if (tiny.length >= 6) break;
+        }
+      }
+      if (tiny.length) issues.push({ kind: "tiny-tap-targets", detail: JSON.stringify(tiny) });
+    }
+    return issues;
+  });
+}
 
 async function ensureDir(p) {
   if (!existsSync(p)) await mkdir(p, { recursive: true });
@@ -76,10 +83,10 @@ async function main() {
       try {
         const resp = await page.goto(url, { waitUntil: "networkidle", timeout: 30000 });
         const status = resp ? resp.status() : 0;
-        if (status >= 400) findings.push({ vp: vp.name, route: r, kind: "http-error", detail: \`status=\${status}\` });
+        if (status >= 400) findings.push({ vp: vp.name, route: r, kind: "http-error", detail: `status=${status}` });
         await page.waitForTimeout(500);
         await page.screenshot({ path: png, fullPage: true });
-        const issues = await page.evaluate(PAGE_AUDIT);
+        const issues = await runPageAudit(page);
         for (const it of issues) findings.push({ vp: vp.name, route: r, ...it });
       } catch (e) {
         findings.push({ vp: vp.name, route: r, kind: "navigation-error", detail: String(e).slice(0, 200) });
@@ -90,7 +97,7 @@ async function main() {
   await browser.close();
 
   // Write report
-  const lines = ["# Visual audit", "", \`Target: \${BASE}\`, \`Generated: \${new Date().toISOString()}\`, ""];
+  const lines = ["# Visual audit", "", `Target: ${BASE}`, `Generated: ${new Date().toISOString()}`, ""];
   if (findings.length === 0) {
     lines.push("No issues detected.");
   } else {
