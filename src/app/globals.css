@@ -64,7 +64,7 @@ html, body {
 .rule { border-color: var(--color-rule); }
 
 /* Leaflet: keep map under nav. */
-.leaflet-container { background: #e7ecf2; }
+.leaflet-container { background: #e7ecf2; overflow: hidden; max-width: 100%; }
 .leaflet-pane { z-index: 0; }
 .leaflet-top, .leaflet-bottom { z-index: 1; }
 .leaflet-tooltip {

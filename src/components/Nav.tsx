@@ -54,7 +54,8 @@ export function Nav() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-40 bg-[var(--color-paper)]/90 backdrop-blur-md border-b border-[var(--color-ink)]/10">
+    <>
+    <header className="sticky top-0 z-40 bg-[var(--color-paper)]/90 backdrop-blur-md border-b border-[var(--color-ink)]/10 overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center gap-3 sm:gap-5">
         {/* Logo lockup */}
         <Link href="/" className="flex items-center gap-2.5 sm:gap-3 shrink-0">
@@ -118,11 +119,13 @@ export function Nav() {
         </div>
       </div>
 
-      {/* Mobile drawer */}
-      <div
-        className={`lg:hidden fixed inset-0 z-50 ${open ? "pointer-events-auto" : "pointer-events-none"}`}
-        aria-hidden={!open}
-      >
+    </header>
+
+    {/* Mobile drawer (rendered as a sibling so it never inflates header.scrollWidth) */}
+    <div
+      className={`lg:hidden fixed inset-0 z-50 ${open ? "pointer-events-auto" : "pointer-events-none"}`}
+      aria-hidden={!open}
+    >
         <button
           type="button"
           aria-label="Close menu"
@@ -171,7 +174,7 @@ export function Nav() {
             Preview &middot; fictional data
           </div>
         </aside>
-      </div>
-    </header>
+    </div>
+    </>
   );
 }
