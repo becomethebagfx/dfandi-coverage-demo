@@ -1,16 +1,16 @@
-import { Users, MapPinned, AlertOctagon, AlertCircle, ArrowRight } from "lucide-react";
+import { Users, MapPinned, AlertOctagon, AlertCircle, ArrowUpRight, Sparkles } from "lucide-react";
 import Link from "next/link";
 import USMap from "@/components/Map/USMapDynamic";
 import { KpiCard } from "@/components/KpiCard";
 import { StatusBadge } from "@/components/StatusBadge";
+import { SectionLabel } from "@/components/SectionLabel";
+import { PremiumBadge } from "@/components/PremiumBadge";
 import { CONTRACTORS, rollupByState, summarize, fmtDate } from "@/lib/data";
 import { tierForDoc } from "@/lib/status";
 
 export default function HomePage() {
   const s = summarize();
 
-  // Build the critical alert list: pull each expired or under-30d document
-  // across all contractors, sorted by how long ago / soon the expiry is.
   const flagged = CONTRACTORS.flatMap((c) =>
     c.documents
       .map((d) => ({ c, d, tier: tierForDoc(d) }))
@@ -26,56 +26,62 @@ export default function HomePage() {
       (a, b) =>
         b.expired_count * 2 + b.critical_count - (a.expired_count * 2 + a.critical_count),
     )
-    .slice(0, 5);
+    .slice(0, 6);
 
   return (
-    <div className="space-y-8">
-      {/* Hero */}
-      <section className="rounded-3xl bg-gradient-to-br from-[var(--color-brand-900)] via-[var(--color-brand-800)] to-[var(--color-brand-600)] text-white px-8 py-10 shadow-lg">
-        <div className="flex items-start gap-6 flex-col lg:flex-row lg:items-center">
-          <div className="flex-1">
-            <div className="text-[11px] uppercase tracking-widest text-white/70 font-semibold">
-              Coverage &amp; Compliance
-            </div>
-            <h1 className="mt-2 text-3xl md:text-4xl font-semibold leading-tight">
-              Know every subcontractor, every cert, everywhere you work.
-            </h1>
-            <p className="mt-3 text-white/80 max-w-2xl text-sm md:text-base">
-              An interactive coverage map for Design Fabricators &amp; Integrators. Hover any state to see
-              who you have, what they can do, and what is about to expire. Drill in for documents,
-              contact info, and one-click outreach.
-            </p>
-          </div>
-          <div className="flex flex-col gap-2 sm:flex-row lg:flex-col">
-            <Link
-              href="/map"
-              className="inline-flex items-center gap-2 rounded-lg bg-white text-[var(--color-brand-800)] px-4 py-2 text-sm font-semibold hover:bg-white/90"
-            >
-              Open coverage map <ArrowRight className="h-4 w-4" />
-            </Link>
-            <Link
-              href="/alerts"
-              className="inline-flex items-center gap-2 rounded-lg bg-white/10 ring-1 ring-white/30 text-white px-4 py-2 text-sm font-semibold hover:bg-white/20"
-            >
-              {s.expired_docs + s.critical_docs} urgent alerts <AlertOctagon className="h-4 w-4" />
-            </Link>
-          </div>
+    <div className="mx-auto max-w-7xl px-5 sm:px-8 pt-10 pb-16 reveal">
+      {/* Editorial header (typography-led, no gradient) */}
+      <header className="border-b border-[var(--color-ink)]/10 pb-8 sm:pb-10">
+        <div className="flex items-center justify-between gap-3">
+          <SectionLabel>Operations &middot; coverage</SectionLabel>
+          <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-[var(--color-ink)]/55">
+            Updated today
+          </span>
         </div>
-      </section>
+        <h1 className="font-display mt-3 text-[34px] sm:text-[44px] lg:text-[56px] leading-[1.04] tracking-tight text-[var(--color-ink)] max-w-4xl">
+          Every subcontractor, every certificate, every state where you build.
+        </h1>
+        <p className="mt-4 max-w-2xl text-[14px] sm:text-[15px] text-[var(--color-ink)]/70 leading-relaxed">
+          A single operational view for DF&amp;I&apos;s installer network. Hover any state to see who you have
+          and what is about to lapse. Drill in for documents and contact, or let the agent take it from there.
+        </p>
+        <div className="mt-6 flex flex-wrap items-center gap-3">
+          <Link
+            href="/map"
+            className="inline-flex items-center gap-2 rounded-[4px] bg-[var(--color-ink)] text-[var(--color-paper)] px-4 py-2.5 text-[13px] hover:bg-[var(--color-ink-soft)]"
+          >
+            Open coverage map <ArrowUpRight className="h-3.5 w-3.5" />
+          </Link>
+          <Link
+            href="/alerts"
+            className="inline-flex items-center gap-2 rounded-[4px] border border-[var(--color-ink)]/15 px-4 py-2.5 text-[13px] hover:border-[var(--color-ink)]/40"
+          >
+            <AlertOctagon className="h-4 w-4 text-[var(--color-status-expired)]" />
+            <span className="font-mono tabular-nums">{s.expired_docs + s.critical_docs}</span> urgent items
+          </Link>
+          <Link
+            href="/upload"
+            className="inline-flex items-center gap-2 rounded-[4px] border border-[var(--color-brass)]/40 bg-[var(--color-brass-tint)] text-[var(--color-brass)] px-4 py-2.5 text-[13px] hover:bg-[var(--color-brass)]/15"
+          >
+            <Sparkles className="h-4 w-4" />
+            Drop a new COI
+          </Link>
+        </div>
+      </header>
 
       {/* KPIs */}
-      <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <KpiCard label="Subcontractors" value={s.total} sublabel="On file, US-wide" icon={Users} />
-        <KpiCard label="States covered" value={s.states_covered} sublabel="Out of 50" icon={MapPinned} />
+      <section className="mt-8 sm:mt-10 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+        <KpiCard label="Subcontractors" value={s.total} sublabel="On file" icon={Users} />
+        <KpiCard label="States covered" value={s.states_covered} sublabel={`of 50`} icon={MapPinned} />
         <KpiCard
-          label="Expired documents"
+          label="Expired docs"
           value={s.expired_docs}
-          sublabel={`${s.expired_contractors} contractors affected`}
-          tone={s.expired_docs > 0 ? "danger" : "good"}
+          sublabel={`${s.expired_contractors} subs affected`}
+          tone="danger"
           icon={AlertOctagon}
         />
         <KpiCard
-          label="Expiring under 90 days"
+          label="Expiring < 90 days"
           value={s.critical_docs + s.warning_docs}
           sublabel={`${s.critical_docs} under 30 days`}
           tone="warn"
@@ -83,46 +89,48 @@ export default function HomePage() {
         />
       </section>
 
-      {/* Map */}
-      <section className="grid grid-cols-1 lg:grid-cols-[1.65fr_1fr] gap-6">
-        <div className="rounded-2xl border border-slate-200 bg-white shadow-sm p-3">
-          <div className="flex items-center justify-between px-3 pb-2">
+      {/* Map + side rails */}
+      <section className="mt-8 sm:mt-10 grid grid-cols-1 lg:grid-cols-[minmax(0,1.65fr)_minmax(280px,1fr)] gap-5 lg:gap-6 items-start">
+        <div className="rounded-[6px] border border-[var(--color-ink)]/10 bg-[var(--color-paper)] overflow-hidden">
+          <div className="flex flex-wrap items-end justify-between gap-3 px-4 sm:px-5 pt-4 pb-3 border-b border-[var(--color-ink)]/8">
             <div>
-              <h2 className="text-lg font-semibold">Coverage map</h2>
-              <p className="text-xs text-slate-500">
-                Hover a state for counts. Click to see its contractors. Click a pin for a profile.
-              </p>
+              <SectionLabel>Coverage map</SectionLabel>
+              <h2 className="font-display mt-1 text-[20px] sm:text-[22px] tracking-tight">
+                Hover, click, drill in.
+              </h2>
             </div>
-            <Link
-              href="/map"
-              className="text-xs font-semibold text-[var(--color-brand-700)] hover:underline inline-flex items-center gap-1"
-            >
-              Open full screen <ArrowRight className="h-3 w-3" />
+            <Link href="/map" className="text-[12px] inline-flex items-center gap-1 text-[var(--color-steel)] hover:text-[var(--color-brass)]">
+              Full screen <ArrowUpRight className="h-3 w-3" />
             </Link>
           </div>
-          <USMap />
+          <div className="p-3">
+            <USMap />
+          </div>
         </div>
-        <div className="space-y-4">
-          {/* Critical ticker */}
-          <div className="rounded-2xl border border-rose-200 bg-rose-50/60 p-4">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2 text-rose-800 font-semibold">
-                <AlertOctagon className="h-4 w-4" />
-                Action queue
+
+        <div className="space-y-5">
+          {/* Action queue */}
+          <div className="rounded-[6px] border border-[var(--color-ink)]/10 bg-[var(--color-paper)] overflow-hidden">
+            <div className="px-4 sm:px-5 pt-4 pb-3 border-b border-[var(--color-ink)]/8 flex items-center justify-between gap-2">
+              <div className="flex items-center gap-2">
+                <SectionLabel>Action queue</SectionLabel>
+                <PremiumBadge label="Agentic" title="The autonomous agent monitors expirations and surfaces these for you." />
               </div>
-              <Link href="/alerts" className="text-xs text-rose-700 hover:underline">
+              <Link href="/alerts" className="text-[11px] text-[var(--color-steel)] hover:text-[var(--color-brass)]">
                 View all
               </Link>
             </div>
-            <ul className="mt-3 space-y-2 text-sm">
+            <ul className="divide-y divide-[var(--color-ink)]/8">
               {flagged.map(({ c, d, tier }) => (
-                <li key={d.id} className="rounded-lg bg-white px-3 py-2 ring-1 ring-rose-100 flex items-start gap-2">
+                <li key={d.id} className="px-4 sm:px-5 py-3 flex items-start gap-3">
                   <StatusBadge tier={tier} />
-                  <div className="flex-1 min-w-0">
+                  <div className="min-w-0 flex-1">
                     <div className="text-[13px] font-medium leading-tight truncate">
-                      <Link href={`/contractors/${c.id}`} className="hover:underline">{c.company}</Link>
+                      <Link href={`/contractors/${c.id}`} className="hover:text-[var(--color-brass)]">
+                        {c.company}
+                      </Link>
                     </div>
-                    <div className="text-[11px] text-slate-500 truncate">
+                    <div className="mt-0.5 text-[11px] text-[var(--color-ink)]/55 truncate font-mono uppercase tracking-[0.06em]">
                       {d.type} &middot; {fmtDate(d.expires_date)} &middot; {c.address.city}, {c.address.state}
                     </div>
                   </div>
@@ -130,21 +138,26 @@ export default function HomePage() {
               ))}
             </ul>
           </div>
+
           {/* Top states at risk */}
-          <div className="rounded-2xl border border-slate-200 bg-white p-4">
-            <h3 className="text-sm font-semibold text-slate-800">States with the most risk</h3>
-            <ul className="mt-3 space-y-2 text-sm">
+          <div className="rounded-[6px] border border-[var(--color-ink)]/10 bg-[var(--color-paper)] overflow-hidden">
+            <div className="px-4 sm:px-5 pt-4 pb-3 border-b border-[var(--color-ink)]/8">
+              <SectionLabel>States with the most risk</SectionLabel>
+            </div>
+            <ul className="divide-y divide-[var(--color-ink)]/8">
               {topStatesAtRisk.map((r) => (
-                <li key={r.code} className="flex items-center gap-2">
-                  <span className="w-7 inline-block text-xs font-mono text-slate-500">{r.code}</span>
-                  <Link href={`/contractors?state=${r.code}`} className="font-medium hover:underline flex-1">
+                <li key={r.code} className="px-4 sm:px-5 py-3 flex items-center gap-3">
+                  <span className="font-mono text-[12px] uppercase tracking-[0.18em] text-[var(--color-steel)] w-6">{r.code}</span>
+                  <Link href={`/contractors?state=${r.code}`} className="flex-1 text-[13px] font-medium hover:text-[var(--color-brass)] truncate">
                     {r.name}
                   </Link>
-                  <span className="text-xs text-slate-500">
+                  <span className="font-mono text-[11px] tabular-nums text-[var(--color-ink)]/55">
                     {r.contractor_count} subs
                   </span>
-                  {r.expired_count > 0 && <StatusBadge tier="expired">{r.expired_count} expired</StatusBadge>}
-                  {r.critical_count > 0 && <StatusBadge tier="critical">{r.critical_count} &lt; 30d</StatusBadge>}
+                  <div className="flex items-center gap-1">
+                    {r.expired_count > 0 && <StatusBadge tier="expired">{r.expired_count}</StatusBadge>}
+                    {r.critical_count > 0 && <StatusBadge tier="critical">{r.critical_count}</StatusBadge>}
+                  </div>
                 </li>
               ))}
             </ul>

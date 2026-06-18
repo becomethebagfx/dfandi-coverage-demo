@@ -71,10 +71,10 @@ Components to add or rebuild:
 - [x] C1-C20: Initial demo built + deployed (see git history, all done earlier today)
 
 PIVOT WORK (2026-06-18 second pass, all incomplete):
-- [ ] C21: Install distinctive fonts via next/font (Fraunces + IBM Plex Sans + JetBrains Mono). Update globals.css tokens to match new palette. Verify build.
-- [ ] C22: Rebuild `Nav` with mobile drawer (sheet from right). New typography. Active-link underline in brass accent. Replace "Coverage Map" link with "Map", add "Upload" and "Settings" entries. No "Pricing" link.
-- [ ] C23: Create `PremiumBadge` component (small brass pill, all-caps tracked text PREMIUM, optional tooltip). Add it next to: /outreach page title, /upload Smart Intake mode, /alerts auto-outreach action, dashboard action-queue header.
-- [ ] C24: Rebuild `KpiCard` and `StatusBadge` in new design system. Refined, monospace numerics, no bubbly background tones.
+- [x] C21: Install distinctive fonts via next/font (Fraunces + IBM Plex Sans + JetBrains Mono). Update globals.css tokens to match new palette. Verify build.
+- [x] C22: Rebuild `Nav` with mobile drawer (sheet from right). New typography. Active-link underline in brass accent. Replace "Coverage Map" link with "Map", add "Upload" and "Settings" entries. No "Pricing" link.
+- [x] C23: Create `PremiumBadge` component (small brass pill, all-caps tracked text PREMIUM, optional tooltip). Add it next to: /outreach page title, /upload Smart Intake mode, /alerts auto-outreach action, dashboard action-queue header.
+- [x] C24: Rebuild `KpiCard` and `StatusBadge` in new design system. Refined, monospace numerics, no bubbly background tones.
 - [ ] C25: Redesign Dashboard (/) - section labels, refined hero (typography-led, not gradient), KPI strip, embedded map, action queue, state risk list. Fully mobile responsive.
 - [ ] C26: Redesign `/map` page - mobile sticky filter, map fills viewport down to bottom of screen, no overflow.
 - [ ] C27: Redesign `/contractors` page - desktop table -> stacked cards below md. Filter form collapses into a sheet.
